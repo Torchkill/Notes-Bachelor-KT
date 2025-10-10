@@ -1,2 +1,2 @@
-# Notes-Bachelor-KT
-Samband við KT Bachelor
+# Dátavísindi og hagfrøði við Rstudio
+Notur

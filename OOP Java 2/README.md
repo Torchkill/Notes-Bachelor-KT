@@ -1,2 +1,2 @@
-# Notes-Bachelor-KT
-Samband við KT Bachelor
+# OOP forritan við Java part 2
+Notur

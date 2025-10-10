@@ -1,2 +1,2 @@
-# Notes-Bachelor-KT
-Samband við KT Bachelor
+# Fíggjarstýring
+Notur
