@@ -205,3 +205,106 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS system files
+.DS_Store
+.Trashes
+._*
+.Spotlight-V100
+.TemporaryItems
+.fseventsd
+
+# video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+#vscode
+.vscode/
+
+# Ignore compiled output
+/out/
+/target/
+
+# Ignore IDE-specific files (e.g., IntelliJ IDEA)
+.idea/
+*.iml
+
+# Ignore log files
+*.log
+
+# Ignore sensitive data
+config.properties
+
+# Compiled class files
+*.class
+
+# Jar/War files
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar # Keep the wrapper jar if you use it
+.project
+.classpath
+.settings/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.iml
+*.iws
+.idea/
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle-properties
+
+# Visual Studio Code
+.vscode/
+
+# Log files
+*.log
+
+# Temporary files
+*~
+.#*
+*.bak
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db

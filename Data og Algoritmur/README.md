@@ -1,0 +1,2 @@
+# Data og Algoritmur
+Notur
