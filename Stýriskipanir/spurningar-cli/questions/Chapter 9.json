@@ -1,0 +1,157 @@
+[
+    {
+        "question": "Absolute code can be generated for ____.",
+        "options": [
+            "compile-time binding",
+            "load-time binding",
+            "execution-time binding",
+            "interrupt binding"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In a dynamically linked library, ____.",
+        "options": [
+            "loading is postponed until execution time",
+            "system language libraries are treated like any other object module",
+            "more disk space is used than in a statically linked library",
+            "a stub is included in the image for each library-routine reference"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The mapping of a logical address to a physical address is done in hardware by the ________.",
+        "options": [
+            "memory-management-unit (MMU)",
+            "memory address register",
+            "relocation register",
+            "dynamic loading register"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "_____ is the dynamic storage-allocation algorithm which results in the smallest leftover hole in memory.",
+        "options": ["First fit", "Best fit", "Worst fit", "None of the above"],
+        "answer": 1
+    },
+    {
+        "question": "_____ is the dynamic storage-allocation algorithm which results in the largest leftover hole in memory.",
+        "options": ["First fit", "Best fit", "Worst fit", "None of the above"],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is true of compaction?",
+        "options": [
+            "It can be done at assembly, load, or execution time.",
+            "It is used to solve the problem of internal fragmentation.",
+            "It cannot shuffle memory contents.",
+            "It is possible only if relocation is dynamic and done at execution time."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Consider a logical address with a page size of 8 KB. How many bits must be used to represent the page offset in the logical address?",
+        "options": ["10", "8", "13", "12"],
+        "answer": 2
+    },
+    {
+        "question": "Assume a system has a TLB hit ratio of 90%. It requires 15 nanoseconds to access the TLB, and 85 nanoseconds to access main memory. What is the effective memory access time in nanoseconds for this system?",
+        "options": ["108.5", "100", "22", "176.5"],
+        "answer": 0
+    },
+    {
+        "question": "Given the logical address 0xAEF9 (in hexadecimal) with a page size of 256 bytes, what is the page offset?",
+        "options": ["0xAE", "0xF9", "0xA", "0xF900"],
+        "answer": 1
+    },
+    {
+        "question": "A(n) ____ page table one page entru for real page (or frame) of memory.",
+        "options": ["Inverted", "Clusterd", "Forward-mapped", "Virtual"],
+        "answer": 0
+    },
+    {
+        "question": "Consider a 32-bit address for a two-level paging system with an 8 KB page size. The outer page table has 1024 entries. How many bists are used to represent the secound-level page table?",
+        "options": ["10", "8", "12", "9"],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following statements are true with respect to hashed page tables?",
+        "options": [
+            "They only work for sparse address spaces.",
+            "The virtual address is used to hash into the hash table.",
+            "A common approach for handling address spaces larger than 32 bits.",
+            "Hash table collisions do not occur because of the importance of paging."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is not a reason explaining why mobile devices generally do not support swapping?",
+        "options": [
+            "Limited space constraints of flash memory.",
+            "Small size of mobile applications do not require use of swap space.",
+            "Limited number of writes of flash memory.",
+            "Poor throughput between main memory and flash memory."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Standard swapping is generally not used in contemporary operating systems, because",
+        "options": [
+            "some processes are so large that they can't fit in backing store.",
+            "memory in contemporary systems is large enough to store all processes.",
+            "the amount of time required to move entire processes between memory and the backing store is prohibitive.",
+            "contemporary operating systems do not oversubscribe memory."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Standard swapping involves swapping in pages of processes instead of entire processes.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The x86-64 bit architecture only uses 48 of the 64 possible bits for representing virtual address space.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A page address extension (PAE) in IA-32",
+        "options": [
+            "introduces two-level paging scheme.",
+            "increases address size to 64 bits.",
+            "allows 32-bit processors to access a physical address space larger than 4 GB.",
+            "does not need any operating system support."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "IA-32 page tables can be swapped to disk.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following statements regarding the ARM architecture are false?",
+        "options": [
+            "There are essentially four different page ranging from 4-KB to 16-MB in size.",
+            "There are two different levels of TLB.",
+            "One or two level paging may be used.",
+            "The micro TLB must be flushed at each context switch."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The ARM architecture uses up to four-level paging.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In ARM architecture, address translation",
+        "options": [
+            "begins at the micro-TLB level.",
+            "begins at the main TLB-level.",
+            "begins at the page table.",
+            "can begin at any of micro, main or page table levels."
+        ],
+        "answer": 0
+    }
+]

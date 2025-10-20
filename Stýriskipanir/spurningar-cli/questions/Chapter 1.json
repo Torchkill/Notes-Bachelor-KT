@@ -1,0 +1,207 @@
+[
+    {
+        "question": "__________ is a set of software frameworks that provide additional services to application developers.",
+        "options": ["System programs", "Virtualization", "Cloud computing", "Middleware"],
+        "answer": 3
+    },
+    {
+        "question": "The operating system kernel consists of all system and application programs in a computer.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "All computer systems have some sort of user interaction.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The most common secondary storage device is ____.",
+        "options": ["random access memory", "solid state disks", "tape drives", "magnetic disk"],
+        "answer": 3
+    },
+    {
+        "question": "Flash memory is slower than DRAM but needs no power to retain its contents.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Interrupts may be triggered by either hardware of software",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following would lead you to believe that a given system is an SMP-type system?",
+        "options": [
+            "Each processor is assigned a specific task.",
+            "There is a boss-worker relationship between the processors.",
+            "Each processor performs all tasks within the operating system.",
+            "None of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A clustered system ____.",
+        "options": [
+            "gathers together multiple CPUs to accomplish computational work",
+            "is an operating system that provides file sharing across a network",
+            "is used when rigid time requirements are present",
+            "can only operate one application at a time"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A dual-core system requires each core has its own cache memory.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A ____ can be used to prevent a user program from never returning control to the operating system.",
+        "options": ["portal", "program counter", "firewall", "timer"],
+        "answer": 3
+    },
+    {
+        "question": "What is another term for kernel mode?",
+        "options": ["supervisor mode", "system mode", "privileged mode", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "What statement concerning privileged instructions is considered false?",
+        "options": [
+            "They may cause harm to the system.",
+            "They can only be executed in kernel mode.",
+            "They cannot be attempted from user mode.",
+            "They are used to manage interrupts."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Two important design issues for cache memory are ____.",
+        "options": [
+            "speed and volatility",
+            "size and replacement policy",
+            "power consumption and reusability",
+            "size and access privileges"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A(n) ________ is the unit of work in a system.",
+        "options": ["process", "operating system", "timer", "mode bit"],
+        "answer": 0
+    },
+    {
+        "question": "Program counter specifies the current instruction to execute.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "UNIX does not allow users to escalate privileges to gain extra permissions for a restricted activity.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Security is equivalent to protection with no difference.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Effective UID is the same as user identifiers (user IDs).",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Virtualization software is one member of a class that differs from emulation.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A virtual machine can be switched like a process in the operating system.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "VMware application was a virtual machine manager (VMM).",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "Bluetooth and 802.11 devices use wireless technology to communicate over several feet, in essence creating a ____.",
+        "options": [
+            "local-area network",
+            "wide-area network",
+            "small-area network",
+            "metropolitan-area network"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "There are a fixed number of network protocols.",
+        "options": ["Yes", "No"],
+        "answer": 1
+    },
+    {
+        "question": "Internet is a network of networks.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "A stack is a sequentially ordered data structure that uses the first in, first out (FIFO) principle for adding and removing items.",
+        "options": ["Yes", "No"],
+        "answer": 1
+    },
+    {
+        "question": "In a binary tree, a parent may have at most two children.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "Hash collision refers to the phenomenon of hash function in which two unique inputs result in the same output value.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "Embedded computers typically run on a ____ operating system.",
+        "options": ["real-time", "Windows XP", "network", "clustered"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is a property of peer-to-peer systems?",
+        "options": [
+            "Clients and servers are not distinguished from one another.",
+            "Separate machines act as either the client of the server but not both.",
+            "They do not offer any advantages over traditional client-server systems.",
+            "They suffer from the server acting as the bottleneck in performance."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A _____ provides a file-system interface which allows clients to create and modify files.",
+        "options": [
+            "compute-server system",
+            "file-server system",
+            "wireless network",
+            "network computer"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following statements concerning open source operating systems is true?",
+        "options": [
+            "Solaris is open source.",
+            "Source code is freely available.",
+            "They are always more secure than commercial, closed systems.",
+            "All open source operating systems share the same set of goals."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following operating systems is not open source?",
+        "options": ["Windows", "BSD UNIX", "Linux", "PCLinuxOS"],
+        "answer": 0
+    },
+    {
+        "question": "A ____ is a custom build of the Linux operating system",
+        "options": ["LiveCD", "installation", "distribution", "VMWare Player"],
+        "answer": 2
+    }
+]

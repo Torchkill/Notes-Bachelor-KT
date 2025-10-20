@@ -1,0 +1,67 @@
+[
+    {
+        "question": "Which of the following is true of cooperative scheduling?",
+        "options": [
+            "It requires a timer.",
+            "A process keeps the CPU until it releases the CPU either by terminating or by switching to the waiting state.",
+            "It incurs a cost associated with access to shared data.",
+            "A process switches from the running state to the ready state when an interrupt occurs."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "____ is the number of processes that are completed per time unit.",
+        "options": ["CPU utilization", "Response time", "Turnaround time", "Throughput"],
+        "answer": 3
+    },
+    {
+        "question": "____ scheduling is approximated by predicting the next CPU burst with an exponential average of the measured lengths of previous CPU bursts.",
+        "options": ["Multilevel queue", "RR", "FCFS", "SJF"],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following scheduling algorithms must be nonpreemptive?",
+        "options": ["SJF", "RR", "FCFS", "priority algorithms"],
+        "answer": 2
+    },
+    {
+        "question": "In Little's formula, $lambda$, represents the ____.",
+        "options": [
+            "average waiting time in the queue",
+            "average arrival rate for new processes in the queue",
+            "average queue length",
+            "average CPU utilization"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "______ allows a thread to run on only one processor.",
+        "options": ["Processor affinity", "Processor set", "NUMA", "Load balancing"],
+        "answer": 0
+    },
+    {
+        "question": "A significant problem with priority scheduling algorithms is _____.",
+        "options": [
+            "complexity",
+            "starvation",
+            "determining the length of the next CPU burst",
+            "determining the length of the time quantum"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The ______ occurs in first-come-first-served scheduling when a process with a long CPU burst occupies the CPU.",
+        "options": ["dispatch latency", "waiting time", "convoy effect", "system-contention scope"],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is true of earliest-deadline-first (EDF) scheduling algorithm?",
+        "options": [
+            "When a process becomes runnable, it must announce its deadline requirements to the system.",
+            "Deadlines are assigned as following: the earlier the deadline, the lower the priority; the later the deadline, the higher the priority.",
+            "Priorities are fixed; that is, they cannot be adjusted when a new process starts running.",
+            "It assigns priorities statically according to deadline."
+        ],
+        "answer": 0
+    }
+]

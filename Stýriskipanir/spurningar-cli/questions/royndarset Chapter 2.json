@@ -1,0 +1,77 @@
+[
+    {
+        "question": "A _____ is an example of a systems program.",
+        "options": ["command interpreter", "Web browser", "text formatter", "database system"],
+        "answer": 0
+    },
+    {
+        "question": "If a program terminates abnormally, a dump of memory may be examined by a ____ to determine the cause of the problem.",
+        "options": ["module", "debugger", "shell", "control card"],
+        "answer": 1
+    },
+    {
+        "question": "A message-passing model is ____.",
+        "options": [
+            "easier to implement than a shared memory model for intercomputer communication",
+            "faster than the shared memory model",
+            "a network protocol, and does not apply to operating systems",
+            "only useful for small simple operating systems"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A microkernel is a kernel ____.",
+        "options": [
+            "containing many components that are optimized to reduce resident memory size",
+            "that is compressed before loading in order to reduce its resident memory size",
+            "that is compiled to produce the smallest size possible when stored to disk",
+            "that is stripped of all nonessential components"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A boot block ____.",
+        "options": [
+            "typically only knows the location and length of the rest of the bootstrap program",
+            "typically is sophisticated enough to load the operating system and begin its execution",
+            "is composed of multiple disk blocks",
+            "is composed of multiple disk cylinders"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "_____ provide(s) an interface to the services provided by an operating system.",
+        "options": ["Shared memory", "System calls", "Simulators", "Communication"],
+        "answer": 1
+    },
+    {
+        "question": "_____ allow operating system services to be loaded dynamically.",
+        "options": ["Virtual machines", "Modules", "File systems", "Graphical user interfaces"],
+        "answer": 1
+    },
+    {
+        "question": "Microkernels use _____ for communication.",
+        "options": ["message passing", "shared memory", "system calls", "virtualization"],
+        "answer": 0
+    },
+    {
+        "question": "The Windows CreateProcess() system call creates a new process. What is the equivalent system call in UNIX:",
+        "options": ["dish()", "spoon()", "fork()", "knife()"],
+        "answer": 2
+    },
+    {
+        "question": "Android runs Java programs _____________",
+        "options": [
+            "in the Dalvik virtual machine.",
+            "natively.",
+            "in the Java virtual machine.",
+            "Android does not run Java programs."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "_____ is/are not a technique for passing parameters from an application to a system call.",
+        "options": ["Cache memory", "Registers", "Stack", "Special block in memory"],
+        "answer": 0
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "question": "The SSTF scheduling algorithm ____.",
+        "options": [
+            "services the request with the maximum seek time",
+            "services the request with the minimum seek time",
+            "chooses to service the request furthest from the current head position",
+            "None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Consider a disk queue holding requests to the following cylinders in the listed order: 116, 22, 3, 11, 75, 185, 100, 87. Using the SCAN scheduling algorithm, what is the order that the requests are serviced, assuming the disk head is at cylinder 88 and moving upward through the cylinders?",
+        "options": [
+            "116 - 22 - 3 - 11 - 75 - 185 - 100 - 87",
+            "100 - 116 - 185 - 87 - 75 - 22 - 11 - 3",
+            "87 - 75 - 100 - 116 - 185 - 22 - 11 - 3",
+            "100 - 116 - 185 - 3 - 11 - 22 - 75 - 87"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Consider a disk queue holding requests to the following cylinders in the listed order: 116, 22, 3, 11, 75, 185, 100, 87. Using the FCFS scheduling algorithm, what is the order that the requests are serviced, assuming the disk head is at cylinder 88 and moving upward through the cylinders?",
+        "options": [
+            "116 - 22 - 3 - 11 - 75 - 185 - 100 - 87",
+            "100 - 116 - 185 - 87 - 75 - 22 - 11 - 3",
+            "87 - 75 - 100 - 116 - 185 - 22 - 11 - 3",
+            "100 - 116 - 185 - 3 - 11 - 22 - 75 - 87"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following statements regarding solid state disks (SSDs) is false?",
+        "options": [
+            "They generally consume more power than traditional hard disks.",
+            "They have the same characteristics as magnetic hard disks, but can be more reliable.",
+            "They are generally more expensive per megabyte than traditional hard disks.",
+            "They have no seek time or latency."
+        ],
+        "answer": 0
+    }
+]

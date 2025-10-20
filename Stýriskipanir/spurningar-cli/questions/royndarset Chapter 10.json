@@ -1,0 +1,57 @@
+[
+    {
+        "question": "A shared lock ____.",
+        "options": [
+            "behaves like a writer lock",
+            "ensures that a file can have only a single concurrent shared lock",
+            "behaves like a reader lock",
+            "will prevent all other processes from accessing the locked file"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "An exclusive lock ____.",
+        "options": [
+            "behaves like a writer lock",
+            "ensures that a file can have only a single concurrent shared lock",
+            "behaves like a reader lock",
+            "will prevent all other processes from accessing the locked file"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A _____ is used on UNIX systems at the beginning of some files to roughly indicate the type of the file.",
+        "options": ["file extension", "creator name", "hint", "magic number"],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is true of the direct-access method for files?",
+        "options": [
+            "It is the most common mode of access.",
+            "It allows programs to read and write records in no particular order.",
+            "Files are made up of variable-length records.",
+            "It is not a good method for accessing large amounts of data quickly."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "______ is a secure, distributed naming mechanism.",
+        "options": [
+            "Lightweight directory-access protocol (LDAP)",
+            "Domain name system (DNS)",
+            "Common internet file system (CIFS)",
+            "Network information service (NIS)"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A mount point is _____.",
+        "options": [
+            "a root of the file system",
+            "a location of a shared file system",
+            "only appropriate for shared file systems",
+            "the location within the file structure where the file system is to be attached."
+        ],
+        "answer": 3
+    }
+]

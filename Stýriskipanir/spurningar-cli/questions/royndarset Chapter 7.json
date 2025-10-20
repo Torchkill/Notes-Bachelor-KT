@@ -1,0 +1,37 @@
+[
+    {
+        "question": "One necessary condition for deadlock is ____, which states that at least one resource must be held in a nonsharable mode.",
+        "options": ["hold and wait", "mutual exclusion", "circular wait", "no preemption"],
+        "answer": 1
+    },
+    {
+        "question": "One necessary condition for deadlock is ______, which states that a process must be holding one resource and waiting to acquire additional resources.",
+        "options": ["hold and wait", "mutual exclusion", "circular wait", "no preemption"],
+        "answer": 0
+    },
+    {
+        "question": "One necessary condition for deadlock is ______, which states that a resource can be released only voluntarily by the process holding the resource.",
+        "options": ["hold and wait", "mutual exclusion", "circular wait", "no preemption"],
+        "answer": 3
+    },
+    {
+        "question": "One necessary condition for deadlock is ______, which states that there is a chain of waiting processes whereby P0 is waiting for a resource held by P1, P1 is waiting for a resource held by P2, and Pn is waiting for a resource held by P0.",
+        "options": ["hold and wait", "mutual exclusion", "circular wait", "no preemption"],
+        "answer": 2
+    },
+    {
+        "question": "In a system resource-allocation graph, ____.",
+        "options": [
+            "a directed edge from a process to a resource is called an assignment edge",
+            "a directed edge from a resource to a process is called a request edge",
+            "a directed edge from a process to a resource is called a request edge",
+            "None of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A _____ could be preempted from a process.",
+        "options": ["mutex lock", "CPU", "semaphore", "file lock"],
+        "answer": 1
+    }
+]

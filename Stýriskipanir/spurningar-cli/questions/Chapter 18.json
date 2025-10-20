@@ -1,0 +1,158 @@
+[
+    {
+        "question": "Type 0 supervisors are most commonly applied in mainframes",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Paravirtualization does not affect the guest operating system",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Application containment is one of the most efficient virtualization approaches",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Microsoft launched first commercial virtual machines",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The virtualization requirement postulate that virtual machine manager has full control over system resources",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Intel 80 x 86 CPUs were popular base hardware for virtualization purposes in late 1970s",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Host system is protected from a virtual machine, but several virtual machines running on the same host are not protected from each other",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Virtual machine managers allow to make snapshots of host system",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "When a single image of a virtual machine is used as a source for multiple running guests, we call this templating",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Guest virtual machines share information about their interrupts",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The drawback of privileged instructions lies in",
+        "options": [
+            "sequential realization",
+            "additional time overhead",
+            "pointer issues",
+            "difficult memory management"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Nested page tables allow for",
+        "options": [
+            "data corruption protection when creating new guests and their paging systems",
+            "up of the virtual machine manager paging",
+            "efficient management of page tables for guests and virtual machine manager",
+            "managing higher number of guests by virtual machine manager"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which type of virtual machine manager offers purely hardware-based support for virtualization",
+        "options": [
+            "type 0 hypervisor",
+            "type 1 hypervisor",
+            "type 2 hypervisor",
+            "type 3 hypervisor"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "How do you call a situation, where there are too many virtual machines being created",
+        "options": [
+            "virtual machine overload",
+            "virtual machine overflow",
+            "virtual machine sprawl",
+            "virtual machine sequencing"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What type of solution should be recommended for a bank that has updated its hardware architecture, but for stability reasons would like to maintain the old software",
+        "options": [
+            "application containment",
+            "emulation",
+            "paravirtualization",
+            "type 1 hypervisor"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In synchronous writes data is being stored in caches, with caller obtaining the control",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "As guests may have multiple addresses, virtual machine manager must work as a virtual router for",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What allows virtual machine manager to re-translate guest pages into real page tables",
+        "options": [
+            "virtual cache",
+            "nested page tables",
+            "virtual page tables",
+            "linked page tables"
+        ],
+        "answer": 1
+    }
+]

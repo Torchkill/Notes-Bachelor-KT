@@ -1,0 +1,132 @@
+[
+    {
+        "question": "Which of the following is true of cooperative scheduling?",
+        "options": [
+            "It requires a timer.",
+            "A process keeps the CPU until it releases the CPU either by terminating or by switching to the waiting state.",
+            "It incurs a cost associated with access to shared data.",
+            "A process switches from the running state to the ready state when an interrupt occurs."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In preemptive scheduling, the sections of code affected by interrupts must be guarded from simultaneous use.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "____ is the number of processes that are completed per time unit.",
+        "options": ["CPU utilization", "Response time", "Turnaround time", "Throughput"],
+        "answer": 3
+    },
+    {
+        "question": "____ scheduling is approximated by predicting the next CPU burst with an exponential average of the measured lengths of previous CPU bursts.",
+        "options": ["Multilevel queue", "RR", "FCFS", "SJF"],
+        "answer": 3
+    },
+    {
+        "question": "The ____ scheduling algorithm is designed especially for time-sharing systems.",
+        "options": ["SJF", "FCFS", "RR", "Multilevel queue"],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is true of multilevel queue scheduling?",
+        "options": [
+            "Processes can move between queues.",
+            "Each queue has its own scheduling algorithm.",
+            "A queue cannot have absolute priority over lower-priority queues.",
+            "It is the most general CPU-scheduling algorithm."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "____ involves the decision of which kernel thread to schedule onto which CPU.",
+        "options": [
+            "Process-contention scope",
+            "System-contention scope",
+            "Dispatcher",
+            "Round-robin scheduling"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "____ allows a thread to run on only one processor.",
+        "options": ["Processor affinity", "Processor set", "NUMA", "Load balancing"],
+        "answer": 0
+    },
+    {
+        "question": "With ____ a thread executes on a processor until a long-latency event (i.e. a memory stall) occurs.",
+        "options": [
+            "coarse-grained multithreading",
+            "fine-grained multithreading",
+            "virtualization",
+            "multicore processors"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The two general approaches to load balancing are ____ and ____.",
+        "options": [
+            "soft affinity, hard affinity",
+            "coarse grained, fine grained",
+            "soft real-time, hard real-time",
+            "push migration, pull migration"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The rate of a periodic task in a hard real-time system is ____, where p is a period and t is the processing time.",
+        "options": ["1/p", "p/t", "1/t", "pt"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is true of the rate-monotonic scheduling algorithm?",
+        "options": [
+            "The task with the shortest period will have the lowest priority.",
+            "Fine-It uses a dynamic priority policy.",
+            "CPU utilization is bounded when using this algorithm.",
+            "It is non-preemptive."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is true of earliest-deadline-first (EDF) scheduling algorithm?",
+        "options": [
+            "When a process becomes runnable, it must announce its deadline requirements to the system.",
+            "Deadlines are assigned as following: the earlier the deadline, the lower the priority; the later the deadline, the higher the priority.",
+            "Priorities are fixed; that is, they cannot be adjusted when a new process starts running.",
+            "It assigns priorities statically according to deadline."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following statements are false with regards to the Linux CFS scheduler?",
+        "options": [
+            "Each task is assigned a proportion of CPU processing time.",
+            "Lower numeric values indicate higher relative priorities.",
+            "There is a single, system-wide value of vruntime.",
+            "The scheduler doesn't directly assign priorities."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the numeric priority of a Windows thread in the HIGH_PRIORITY_CLASS with ABOVE_NORMAL relative priority?",
+        "options": ["24", "10", "8", "14"],
+        "answer": 3
+    },
+    {
+        "question": "In Solaris, if an interactive thread with priority 15 uses its entire time quantum, what is its priority recalculated to?",
+        "options": ["51", "5", "160", "It remains at 15"],
+        "answer": 1
+    },
+    {
+        "question": "In Little's formula, lambda, represents the ____.",
+        "options": [
+            "average waiting time in the queue",
+            "average arrival rate for new processes in the queue",
+            "average queue length",
+            "average CPU utilization"
+        ],
+        "answer": 1
+    }
+]

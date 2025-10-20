@@ -1,0 +1,157 @@
+[
+    {
+        "question": "System call interface is the boundary between user programs and operating system services.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "Graphical User Interface (GUI) is the most common user interface.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "Touch screen is a user interface on mobile systems.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "KDE and GNOME desktops are available under open-source licenses.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "There is only a single flavor of shells for users to choose.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "_____ is not one of the major categories of system calls.",
+        "options": ["Process control", "Communications", "Protection", "Security"],
+        "answer": 3
+    },
+    {
+        "question": "_____ is/are not a technique for passing parameters from an application to a system call.",
+        "options": ["Cache memory", "Registers", "Stack", "Special block in memory"],
+        "answer": 0
+    },
+    {
+        "question": "System calls can be run in either user mode or kernel mode.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A _____ is an example of a systems program.",
+        "options": ["command interpreter", "Web browser", "text formatter", "database system"],
+        "answer": 0
+    },
+    {
+        "question": "System programs all run in kernel mode.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Web browser is a system program",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Source files are compiled into object file(s) which use absolute addresses.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A statically-linked library is only linked and loaded if it is conditionally required during program runtime.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Applications that are designed to work on one operating system will also work on another operating system as long as they provide the same APIs.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Policy ____.",
+        "options": [
+            "determines how to do something",
+            "determines what will be done",
+            "is not likely to change across places",
+            "is not likely to change over time"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A policy should be defined together with the mechanism.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "An operating system is far easier to port-to move to some other hardware-if it is written in a lowerlevel language.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The major difficulty in designing a layered operating system approach is ____.",
+        "options": [
+            "appropriately defining the various layers",
+            "making sure that each layer hides certain data structures, hardware, and operations from higherlevel layers",
+            "debugging a particular layer",
+            "making sure each layer is easily converted to modules"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A microkernel is a kernel ____.",
+        "options": [
+            "containing many components that are optimized to reduce resident memory size",
+            "that is compressed before loading in order to reduce its resident memory size",
+            "that is compiled to produce the smallest size possible when stored to disk",
+            "that is stripped of all nonessential components"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "_____ allows operating system services to be loaded dynamically.",
+        "options": ["Virtual machines", "Modules", "File systems", "Graphical user interfaces"],
+        "answer": 1
+    },
+    {
+        "question": "To the SYSGEN program of an operating system, the least useful piece of information is _____.",
+        "options": [
+            "the CPU being used",
+            "amount of memory available",
+            "what applications to install",
+            "operating-system options such as buffer sizes or CPU scheduling algorithms"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A boot block ____.",
+        "options": [
+            "typically only knows the location and length of the rest of the bootstrap program",
+            "typically is sophisticated enough to load the operating system and begin its execution",
+            "is composed of multiple disk blocks",
+            "is composed of multiple disk cylinders"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "An initial bootstrap program is in the form of random-access memory (RAM).",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "If a program terminates abnormally, a dump of memory may be examined by a ____ to determine the cause of the problem.",
+        "options": ["module", "debugger", "shell", "control card"],
+        "answer": 1
+    },
+    {
+        "question": "Tools for operating system debugging must be system-wide.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Debugging is the activity of finding and fixing errors in a system, only in software.",
+        "options": ["True", "False"],
+        "answer": 1
+    }
+]

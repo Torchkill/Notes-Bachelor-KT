@@ -1,0 +1,47 @@
+[
+    {
+        "question": "A denial of service attack is ____.",
+        "options": [
+            "aimed at gaining information",
+            "aimed at stealing resources",
+            "aimed at disrupting legitimate use of a system",
+            "generally not network based"
+        ],
+        "answer": null
+    },
+    {
+        "question": "In a paired-password system, ____.",
+        "options": [
+            "the user specifies two passwords",
+            "the computer supplies one part of a password and the user enters the other part",
+            "passwords must contain equal amounts of numbers and digits paired together",
+            "two users must enter their own separate password to gain access to the system"
+        ],
+        "answer": null
+    },
+    {
+        "question": "A ____ virus changes each time it is installed to avoid detection by antivirus software.",
+        "options": ["polymorphic", "tunneling", "multipartite", "stealth"],
+        "answer": null
+    },
+    {
+        "question": "____ is a symmetric stream cipher.",
+        "options": ["DES", "AES", "RC4", "twofish"],
+        "answer": null
+    },
+    {
+        "question": "A ____ is a public key digitally signed by a trusted party.",
+        "options": ["key ring", "digital certificate", "message digest", "digital key"],
+        "answer": null
+    },
+    {
+        "question": "Which of the following is true of SSL?",
+        "options": [
+            "It provides security at the data-link layer.",
+            "It is a simple protocol with limited options.",
+            "It is commonly used for secure communication on the Internet.",
+            "It was designed by Microsoft."
+        ],
+        "answer": null
+    }
+]
