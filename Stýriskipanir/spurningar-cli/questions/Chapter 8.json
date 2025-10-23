@@ -1,0 +1,157 @@
+[
+    {
+        "question": "A deadlocked state occurs whenever ____.",
+        "options": [
+            "a process is waiting for I/O to a device that does not exist",
+            "the system has no available free resources",
+            "every process in a set is waiting for an event that can only be caused by another process in the set",
+            "a process is unable to release its request for a resource after use"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Deadlock occurs when every thread in a set is blocked waiting for an event that can be caused only by another thread in the set, while livelock occurs when a thread continuously attempts an action that fails.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In the dining philosophers problem, there is a possibility of deadlock but not livelock.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "One necessary condition for deadlock is ____, which states that a process must be holding one resource and waiting to acquire additional resources.",
+        "options": ["hold and wait", "mutual exclusion", "circular wait", "no preemption"],
+        "answer": 0
+    },
+    {
+        "question": "A cycle in a resource-allocation graph is ____.",
+        "options": [
+            "a necessary and sufficient condition for deadlock in the case that each resource has more than one instance",
+            "a necessary and sufficient condition for a deadlock in the case that each resource has exactly one instance",
+            "a sufficient condition for a deadlock in the case that each resource has more than once instance",
+            "is neither necessary nor sufficient for indicating deadlock in the case that each resource has exactly"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "If a resource-allocation graph has a cycle, the system must be in a deadlocked state.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "To handle deadlocks, operating systems most often ____.",
+        "options": [
+            "pretend that deadlocks never occur",
+            "use protocols to prevent or avoid deadlocks",
+            "detect and recover from deadlocks",
+            "None of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Both deadlock prevention and deadlock avoidance techniques ensure that the system will never enter a deadlocked state.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Most operating systems choose to ignore deadlocks, because",
+        "options": [
+            "handling deadlocks is expensive in terms of performance and resources.",
+            "deadlocks occur infrequently.",
+            "methods used to recover from livelock may be put to use to recover from deadlock.",
+            "All of the above."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Assume there are three resources, R1, R2, and R3, that are each assigned unique integer values 15, 10, and 25, respectively. What is a resource ordering which prevents a circular wait?",
+        "options": ["R1, R2, R3", "R3, R2, R1", "R3, R1, R2", "R2, R1, R3"],
+        "answer": 3
+    },
+    {
+        "question": "Deadlock prevention by denying the mutual-exclusion condition is the simplest way to prevent deadlocks.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "In deadlock prevention by denying hold-and-wait condition,",
+        "options": [
+            "resource utilization may below.",
+            "starvation is possible.",
+            "whenever a thread requests a resource, it does not hold any other resources.",
+            "All of the above."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": [
+            "A safe state is a deadlocked state.",
+            "A safe state may lead to a deadlocked state.",
+            "An unsafe state is necessarily, and by definition, always a deadlocked state.",
+            "An unsafe state may lead to a deadlocked state."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Suppose that there are ten resources available to three processes. At time 0, the following data is collected. The table indicates the process, the maximum number of resources needed by the process, and the number of resources currently owned by each process. Which of the following correctly characterizes this state?",
+        "options": [
+            "It is safe.",
+            "It is not safe.",
+            "The state cannot be determined.",
+            "It is an impossible state."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Suppose that there are 12 resources available to three processes. At time 0, the following data is collected. The table indicates the process, the maximum number of resources needed by the process, and the number of resources currently owned by each process. Which of the following correctly characterizes this state?",
+        "options": [
+            "It is safe.",
+            "It is not safe.",
+            "The state cannot be determined.",
+            "It is an impossible state."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The wait-for graph scheme is not applicable to a resource allocation system with multiple instances of each resource type.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In a wait-for-graph,",
+        "options": [
+            "a resource may have multiple instances.",
+            "a deadlock implies the existence of a cycle, but a cycle does not necessarily imply a deadlock.",
+            "a cycle implies deadlock, but not every deadlock results in a cycle.",
+            "None of the above."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The decision of when to invoke a detection algorithm depends on the likely frequency of deadlocks and the number of threads likely to be affected by a deadlock when it happens.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A system can recover from a deadlock by",
+        "options": [
+            "aborting one process at a time until the deadlock cycle is eliminated.",
+            "aborting all deadlocked processes.",
+            "preempting some resources from one or more of the deadlocked threads.",
+            "All of the above."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "To recover from a deadlock using resource preemption,",
+        "options": [
+            "the order of resources and processes that need to be preempted must be determined to minimize cost.",
+            "if a resource is preempted from a process, the process must be rolled back to some safe state and restarted from that state.",
+            "ensure that starvation does not occur from always preempting resources from the same process.",
+            "All of the above."
+        ],
+        "answer": 3
+    }
+]

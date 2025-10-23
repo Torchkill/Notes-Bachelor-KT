@@ -1,0 +1,82 @@
+[
+    {
+        "question": "The ____ of a process contains temporary data such as function parameters, return addresses, and local variables.",
+        "options": ["text section", "data section", "program counter", "stack"],
+        "answer": 3
+    },
+    {
+        "question": "A process control block ____.",
+        "options": [
+            "includes information on the process's state",
+            "stores the address of the next instruction to be processed by a different process",
+            "determines which process is to be executed next",
+            "is an example of a process queue"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The list of processes waiting for a particular I/O device is called a(n) ____.",
+        "options": ["standby queue", "device queue", "ready queue", "interrupt queue"],
+        "answer": 1
+    },
+    {
+        "question": "When a child process is created, which of the following is a possibility in terms of the execution or address space of the child process?",
+        "options": [
+            "The child process runs concurrently with the parent.",
+            "The child process has a new program loaded into it.",
+            "The child is a duplicate of the parent.",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A _________________ saves the state of the currently running process and restores the state of the next process to run.",
+        "options": ["save-and-restore", "state switch", "context switch", "none of the above"],
+        "answer": 2
+    },
+    {
+        "question": "A blocking send() and blocking receive() is known as a(n) _________________",
+        "options": [
+            "synchronized message",
+            "rendezvous",
+            "blocked message",
+            "asynchronous message"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A/an ______________ allows several unrelated processes to use the pipe for communication.",
+        "options": ["named pipe", "FIFO pipe", "LIFO", "ordinary pipe"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": [
+            "Shared memory is typically faster than message passing.",
+            "Message passing is typically faster than shared memory.",
+            "Message passing is most useful for exchanging large amounts of data.",
+            "Shared memory is far more common in operating systems than message passing."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Child processes inherit UNIX ordinary pipes from their parent process because:",
+        "options": [
+            "The pipe is part of the code and children inherit code from their parents.",
+            "A pipe is treated as a file descriptor and child processes inherit open file descriptors from their parents.",
+            "The STARTUPINFO structure establishes this sharing.",
+            "All IPC facilities are shared between the parent and child processes."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A process that has terminated, but whose parent has not yet called wait(), is known as a ________ process.",
+        "options": ["zombie", "orphan", "terminated", "init"],
+        "answer": 0
+    },
+    {
+        "question": "The _______ process is assigned as the parent to orphan processes.",
+        "options": ["zombie", "init", "main", "renderer"],
+        "answer": 1
+    }
+]

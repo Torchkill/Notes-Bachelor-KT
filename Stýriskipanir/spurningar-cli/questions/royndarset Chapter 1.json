@@ -1,0 +1,47 @@
+[
+    {
+        "question": "The most common secondary storage device is ____.",
+        "options": ["random access memory", "DVD", "tape drives", "magnetic disk"],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following would lead you to believe that a given system is an SMP-type system?",
+        "options": [
+            "Each processor is assigned a specific task.",
+            "There is a boss-worker relationship between the processors.",
+            "Each processor performs all tasks within the operating system.",
+            "None of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A ____ can be used to prevent a user program from never returning control to the operating system.",
+        "options": ["portal", "program counter", "firewall", "timer"],
+        "answer": 3
+    },
+    {
+        "question": "Embedded computers typically run on a ____ operating system.",
+        "options": ["real-time", "Windows XP", "network", "clustered"],
+        "answer": 0
+    },
+    {
+        "question": "What are some other terms for kernel mode?",
+        "options": ["supervisor mode", "system mode", "privileged mode", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following statements concerning open source operating systems is true?",
+        "options": [
+            "Windows is open source.",
+            "Source code is freely available.",
+            "They are always more secure than commercial, closed systems.",
+            "All open source operating systems share the same set of goals."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following operating systems is not open source?",
+        "options": ["Windows", "BSD UNIX", "Linux", "PCLinuxOS"],
+        "answer": 0
+    }
+]

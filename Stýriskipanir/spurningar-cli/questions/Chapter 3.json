@@ -1,0 +1,152 @@
+[
+    {
+        "question": "The ____ of a process contains temporary data such as function parameters, return addresses, and local variables.",
+        "options": ["text section", "data section", "program counter", "stack"],
+        "answer": 3
+    },
+    {
+        "question": "A process control block ____.",
+        "options": [
+            "includes information on the process's state",
+            "stores the address of the next instruction to be processed by a different process",
+            "determines which process is to be executed next",
+            "is an example of a process queue"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A process may transition to the Ready state by which of the following actions?",
+        "options": [
+            "Completion of an I/O event",
+            "Awaiting its turn on the CPU",
+            "Newly-admitted process",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The _____________ refers to the number of processes in memory.",
+        "options": [
+            "process count",
+            "long-term scheduler",
+            "degree of multiprogramming",
+            "CPU scheduler"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The list of processes waiting for a particular I/O device is called a(n) ____.",
+        "options": ["standby queue", "device queue", "ready queue", "interrupt queue"],
+        "answer": 1
+    },
+    {
+        "question": "A _________________ saves the state of the currently running process and restores the state of the next process to run.",
+        "options": ["save-and-restore", "state switch", "context switch", "none of the above"],
+        "answer": 2
+    },
+    {
+        "question": "When a child process is created, which of the following is a possibility in terms of the execution or address space of the child process?",
+        "options": [
+            "The child process runs concurrently with the parent.",
+            "The child process has a new program loaded into it.",
+            "The child is a duplicate of the parent.",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A process that has terminated, but whose parent has not yet called wait(), is known as a ________ process.",
+        "options": ["zombie", "orphan", "terminated", "init"],
+        "answer": 0
+    },
+    {
+        "question": "The _______ process is assigned as the parent to orphan processes.",
+        "options": ["zombie", "init", "main", "renderer"],
+        "answer": 1
+    },
+    {
+        "question": "A new browser process is created by the Chrome browser for every new website that is visited.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": [
+            "Shared memory is typically faster than message passing.",
+            "Message passing is typically faster than shared memory.",
+            "Message passing is most useful for exchanging large amounts of data.",
+            "Shared memory is far more common in operating systems than message passing."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Shared memory is a more appropriate IPC mechanism than message passing for distributed systems.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The shared buffer is implemented as a circular array with two logical pointers: in and out. The variable in points to the next free position in the buffer; out points to the first full position in the buffer. The buffer is full when in == out.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A blocking send() and blocking receive() is known as a(n) _________________",
+        "options": [
+            "synchronized message",
+            "rendezvous",
+            "blocked message",
+            "asynchronous message"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In a(n) ____ temporary queue, the sender must always block until the recipient receives the message.",
+        "options": ["zero capacity", "variable capacity", "bounded capacity", "unbounded capacity"],
+        "answer": 0
+    },
+    {
+        "question": "Under indirect communication, each process that wants to communicate must explicitly name the recipient or sender of the communication.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A(n) ______________ allows several unrelated processes to use the pipe for communication.",
+        "options": ["named pipe", "anonymous pipe", "LIFO", "ordinary pipe"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": [
+            "Named pipes do not allow bi-directional communication.",
+            "Only the parent and child processes can use named pipes for communication.",
+            "Reading and writing to ordinary pipes on both UNIX and Windows systems can be performed like ordinary file I/O.",
+            "Named pipes can only be used by communicating processes on the same machine."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Named pipes continue to exist in the system after the creating process has terminated.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Imagine that a host with IP address 150.55.66.77 wishes to download a file from the web server at IP address 202.28.15.123. Select a valid socket pair for a connection between this pair of hosts.",
+        "options": [
+            "150.55.66.77:80 and 202.28.15.123:80",
+            "150.55.66.77:150 and 202.28.15.123:80",
+            "150.55.66.77:2000 and 202.28.15.123:80",
+            "150.55.66.77:80 and 202.28.15.123:3500"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "When communicating with sockets, a client process initiates a request for a connection and is assigned a port by the host computer. Which of the following would be a valid port assignment for the host computer?",
+        "options": ["21", "23", "80", "1625"],
+        "answer": 3
+    },
+    {
+        "question": "A socket is identified by an IP address concatenated with a port number.",
+        "options": ["True", "False"],
+        "answer": 0
+    }
+]

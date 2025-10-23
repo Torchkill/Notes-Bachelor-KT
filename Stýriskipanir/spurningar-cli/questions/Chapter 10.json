@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Which of the following is a benefit of allowing a program that is only partially in memory to execute?",
+        "options": [
+            "Programs can be written to use more memory than is available in physical memory.",
+            "CPU utilization and throughput is increased.",
+            "Less I/O is needed to load or swap each user program into memory.",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In systems that support virtual memory, ____.",
+        "options": [
+            "virtual memory is separated from logical memory.",
+            "virtual memory is separated from physical memory.",
+            "physical memory is separated from secondary storage.",
+            "physical memory is separated from logical memory."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In general, virtual memory decreases the degree of multiprogramming in a system.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "On a system with demand-paging, a process will experience a high page fault rate when the process begins execution.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A page fault occurs when",
+        "options": [
+            "a page in memory get corrupted.",
+            "the size of a process is larger than the size of the physical memory.",
+            "a process tries to access a page that is not loaded in memory.",
+            "the page table is not large enough to include all page table entries."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "If memory access time is 250 nanoseconds and average page fault service time 10 milliseconds, the probability of page faults must be less ______ to keep the performance degradation less than 20%.",
+        "options": ["0.0000025", "0.000005", "0.0000075", "0.00001"],
+        "answer": 1
+    },
+    {
+        "question": "The vfork() system call in UNIX ____.",
+        "options": [
+            "allows the child process to use the address space of the parent",
+            "uses copy-on-write with the fork() call",
+            "is not intended to be used when the child process calls exec() immediately after creation",
+            "duplicates all pages that are modified by the child process"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "________ allows the parent and child processes to initially share the same pages, but when either process modifies a page, a copy of the shared page is created.",
+        "options": ["copy-on-write", "zero-fill-on-demand", "memory-mapped", "virtual memory fork"],
+        "answer": 0
+    },
+    {
+        "question": "On systems that provide it, vfork() should always be used instead of fork().",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Suppose we have the following page accesses: 1 2 3 4 2 3 4 1 2 1 1 3 1 4 and that there are three frames within our system. Using the LRU replacement algorithm, what is the number of page faults for the given reference string?",
+        "options": ["14", "13", "8", "10"],
+        "answer": 2
+    },
+    {
+        "question": "Belady's anomaly states that ____.",
+        "options": [
+            "giving more memory to a process will improve its performance",
+            "as the number of allocated frames increases, the page-fault rate may decrease for all page replacement algorithms",
+            "for some page replacement algorithms, the page-fault rate may decrease as the number of allocated frames increases",
+            "for some page replacement algorithms, the page-fault rate may increase as the number of allocated frames increases"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In the enhanced second chance algorithm, which of the following ordered pairs represents a page that would be the best choice for replacement?",
+        "options": ["(0,0)", "(0,1)", "(1,0)", "(1,1)"],
+        "answer": 0
+    },
+    {
+        "question": "The _____ allocation algorithm allocates available memory to each process according to its size.",
+        "options": ["equal", "global", "proportional", "slab"],
+        "answer": 2
+    },
+    {
+        "question": "Systems in which memory access times vary significantly are known as __________.",
+        "options": [
+            "memory-mapped I/O",
+            "demand-paged memory",
+            "non-uniform memory access",
+            "copy-on-write memory"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Non-uniform memory access has little effect on the performance of a virtual memory system.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "_____ occurs when a process spends more time paging than executing.",
+        "options": ["Thrashing", "Memory-mapping", "Demand paging", "Swapping"],
+        "answer": 0
+    },
+    {
+        "question": "The _____ is an approximation of a program's locality.",
+        "options": [
+            "locality model",
+            "working set",
+            "page fault frequency",
+            "page replacement algorithm"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "If the page-fault rate is too high, the process may have too many frames.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Memory compression is commonly used in mobile systems instead of swapping.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In memory compression,",
+        "options": [
+            "compression ratio needs to be balanced with the temporary memory needed for compression.",
+            "compression ratio needs to be balanced with the number of pages to be compressed.",
+            "compression ratio needs to be balanced with the compression time.",
+            "compression ratio needs to be balanced with page size."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Memory compression is faster than swapping pages to hard disks, but slower than swapping pages to SSDs.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "What size segment will be allocated for a 39 KB request on a system using the Buddy system for kernel memory allocation?",
+        "options": ["39 KB", "42 KB", "64 KB", "None of the above"],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following statements is false with regard to allocating kernel memory?",
+        "options": [
+            "Slab allocation does not suffer from fragmentation.",
+            "Adjacent segments can be combined into one larger segment with the buddy system.",
+            "Because the kernel requests memory of varying sizes, some of which may be quite small, the system does not have to be concerned about wasting memory.",
+            "The slab allocator allows memory requests to be satisfied very quickly."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is considered a benefit when using the slab allocator?",
+        "options": [
+            "Memory is allocated using a simple power-of-2 allocator.",
+            "It allows kernel code and data to be efficiently paged.",
+            "It allows larger segments to be combined using coalescing.",
+            "There is no memory fragmentation."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The ____ is the number of entries in the TLB multiplied by the page size.",
+        "options": ["TLB cache", "page resolution", "TLB reach", "hit ratio"],
+        "answer": 2
+    },
+    {
+        "question": "Only a fraction of a process's working set needs to be stored in the TLB.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Prepaging can be an advantage, because",
+        "options": [
+            "the cost of using prepaging is less than the cost of servicing the corresponding page faults.",
+            "the initial pages a process accesses are typically well known in advance.",
+            "prepaging starts before a process is scheduled for execution.",
+            "All of the above."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Windows uses a local page replacement policy _____.",
+        "options": [
+            "when a process exceeds its working set minimum",
+            "when a process exceeds its working set maximum",
+            "when the system undergoes automatic working set trimming",
+            "under all circumstances"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following statements is false with regard to Solaris memory management?",
+        "options": [
+            "The speed at which pages are examined (the scanrate) is constant.",
+            "The pageout process only runs if the number of free pages is less than lotsfree.",
+            "An LRU approximation algorithm is employed.",
+            "Pages selected for replacement may be reclaimed before being placed on the free list."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In Linux,",
+        "options": [
+            "pages in active list may be moved to inactive list.",
+            "pages in inactive list may be moved to active list.",
+            "pages in inactive list are may be reclaimed for the free list.",
+            "All of the above."
+        ],
+        "answer": 3
+    }
+]

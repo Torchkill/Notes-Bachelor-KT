@@ -1,0 +1,162 @@
+[
+    {
+        "question": "A race condition ____.",
+        "options": [
+            "results when several threads try to access the same data concurrently",
+            "results when several threads try to access and modify the same data concurrently",
+            "will result only if the outcome of execution does not depend on the order in which instructions are executed",
+            "None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Instructions from different processes can be interleaved when interrupts are allowed.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A(n) _______ refers to where a process is accessing/updating shared data.",
+        "options": ["critical section", "entry section", "mutex", "test-and-set"],
+        "answer": 0
+    },
+    {
+        "question": "A solution to the critical section problem does not have to satisfy which of the following requirements?",
+        "options": ["mutual exclusion", "progress", "atomicity", "bounded waiting"],
+        "answer": 2
+    },
+    {
+        "question": "A nonpreemptive kernel is safe from race conditions on kernel data structures.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In Peterson's solution, the ____ variable indicates if a process is ready to enter its critical section.",
+        "options": ["turn", "lock", "flag[i]", "turn[i]"],
+        "answer": 2
+    },
+    {
+        "question": "_____ is not a technique for handling critical sections in operating systems.",
+        "options": [
+            "Nonpreemptive kernels",
+            "Preemptive kernels",
+            "Spinlocks",
+            "Peterson's solution"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "_____ is/are not a technique for managing critical sections in operating systems.",
+        "options": [
+            "Peterson's solution",
+            "Preemptive kernel",
+            "Nonpreemptive kernel",
+            "Semaphores"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "An instruction that executes atomically ____.",
+        "options": [
+            "must consist of only one machine instruction",
+            "executes as a single, uninterruptible unit",
+            "cannot be used to solve the critical section problem",
+            "All of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Race conditions are prevented by requiring that critical regions be protected by locks.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Both the test_ and_set() instruction and compare_and_swap() instruction are executed atomically.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A mutex lock ____.",
+        "options": [
+            "is exactly like a counting semaphore",
+            "is essentially a boolean variable",
+            "is not guaranteed to be atomic",
+            "can be used to eliminate busy waiting"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the correct order of operations for protecting a critical section using mutex locks?",
+        "options": [
+            "release() followed by acquire()",
+            "acquire() followed by release()",
+            "wait() followed by signal()",
+            "signal() followed by wait()"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Busy waiting refers to the phenomenon that while a process is in its critical section, any other process that tries to enter its critical section must loop continuously in the call to acquire the mutex lock.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "A counting semaphore ____.",
+        "options": [
+            "is essentially an integer variable",
+            "is accessed through only one standard operation",
+            "can be modified simultaneously by multiple threads",
+            "cannot be used to control access to a thread's critical sections"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "_____ can be used to prevent busy waiting when implementing a semaphore.",
+        "options": [
+            "Spinlocks",
+            "Waiting queues",
+            "Mutex lock",
+            "Allowing the wait() operation to succeed"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Mutex locks and binary semaphores are essentially the same thing.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A ___ type presents a set of programmer-defined operations that are provided mutual exclusion within it.",
+        "options": ["transaction", "signal", "binary", "monitor"],
+        "answer": 3
+    },
+    {
+        "question": "The local variables of a monitor can be accessed by only the local procedures.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Monitors are a theoretical concept and are not practiced in modern programming languages",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A deadlock-free solution eliminates the possibility of starvation.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Another problem related to deadlocks is ____________.",
+        "options": ["race conditions", "critical sections", "spinlocks", "indefinite blocking"],
+        "answer": 3
+    },
+    {
+        "question": "____________ occurs when a higher-priority process needs to access a data structure that is currently being accessed by a lower-priority process.",
+        "options": ["Priority inversion", "Deadlock", "A race condition", "A critical section"],
+        "answer": 0
+    },
+    {
+        "question": "Traditional synchronization is always much faster than CAS-based synchronization.",
+        "options": ["True", "False"],
+        "answer": 1
+    }
+]

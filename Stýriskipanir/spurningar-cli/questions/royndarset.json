@@ -1,0 +1,692 @@
+[
+    {
+        "question": "The most common secondary storage device is ____.",
+        "options": ["random access memory", "DVD", "tape drives", "magnetic disk"],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following would lead you to believe that a given system is an SMP-type system?",
+        "options": [
+            "Each processor is assigned a specific task.",
+            "There is a boss-worker relationship between the processors.",
+            "Each processor performs all tasks within the operating system.",
+            "None of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A ____ can be used to prevent a user program from never returning control to the operating system.",
+        "options": ["portal", "program counter", "firewall", "timer"],
+        "answer": 3
+    },
+    {
+        "question": "Embedded computers typically run on a ____ operating system.",
+        "options": ["real-time", "Windows XP", "network", "clustered"],
+        "answer": 0
+    },
+    {
+        "question": "What are some other terms for kernel mode?",
+        "options": ["supervisor mode", "system mode", "privileged mode", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following statements concerning open source operating systems is true?",
+        "options": [
+            "Windows is open source.",
+            "Source code is freely available.",
+            "They are always more secure than commercial, closed systems.",
+            "All open source operating systems share the same set of goals."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following operating systems is not open source?",
+        "options": ["Windows", "BSD UNIX", "Linux", "PCLinuxOS"],
+        "answer": 0
+    },
+    {
+        "question": "A _____ is an example of a systems program.",
+        "options": ["command interpreter", "Web browser", "text formatter", "database system"],
+        "answer": 0
+    },
+    {
+        "question": "If a program terminates abnormally, a dump of memory may be examined by a ____ to determine the cause of the problem.",
+        "options": ["module", "debugger", "shell", "control card"],
+        "answer": 1
+    },
+    {
+        "question": "A message-passing model is ____.",
+        "options": [
+            "easier to implement than a shared memory model for intercomputer communication",
+            "faster than the shared memory model",
+            "a network protocol, and does not apply to operating systems",
+            "only useful for small simple operating systems"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A microkernel is a kernel ____.",
+        "options": [
+            "containing many components that are optimized to reduce resident memory size",
+            "that is compressed before loading in order to reduce its resident memory size",
+            "that is compiled to produce the smallest size possible when stored to disk",
+            "that is stripped of all nonessential components"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A boot block ____.",
+        "options": [
+            "typically only knows the location and length of the rest of the bootstrap program",
+            "typically is sophisticated enough to load the operating system and begin its execution",
+            "is composed of multiple disk blocks",
+            "is composed of multiple disk cylinders"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "_____ provide(s) an interface to the services provided by an operating system.",
+        "options": ["Shared memory", "System calls", "Simulators", "Communication"],
+        "answer": 1
+    },
+    {
+        "question": "_____ allow operating system services to be loaded dynamically.",
+        "options": ["Virtual machines", "Modules", "File systems", "Graphical user interfaces"],
+        "answer": 1
+    },
+    {
+        "question": "Microkernels use _____ for communication.",
+        "options": ["message passing", "shared memory", "system calls", "virtualization"],
+        "answer": 0
+    },
+    {
+        "question": "The Windows CreateProcess() system call creates a new process. What is the equivalent system call in UNIX:",
+        "options": ["dish()", "spoon()", "fork()", "knife()"],
+        "answer": 2
+    },
+    {
+        "question": "Android runs Java programs _____________",
+        "options": [
+            "in the Dalvik virtual machine.",
+            "natively.",
+            "in the Java virtual machine.",
+            "Android does not run Java programs."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "_____ is/are not a technique for passing parameters from an application to a system call.",
+        "options": ["Cache memory", "Registers", "Stack", "Special block in memory"],
+        "answer": 0
+    },
+    {
+        "question": "The ____ of a process contains temporary data such as function parameters, return addresses, and local variables.",
+        "options": ["text section", "data section", "program counter", "stack"],
+        "answer": 3
+    },
+    {
+        "question": "A process control block ____.",
+        "options": [
+            "includes information on the process's state",
+            "stores the address of the next instruction to be processed by a different process",
+            "determines which process is to be executed next",
+            "is an example of a process queue"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The list of processes waiting for a particular I/O device is called a(n) ____.",
+        "options": ["standby queue", "device queue", "ready queue", "interrupt queue"],
+        "answer": 1
+    },
+    {
+        "question": "When a child process is created, which of the following is a possibility in terms of the execution or address space of the child process?",
+        "options": [
+            "The child process runs concurrently with the parent.",
+            "The child process has a new program loaded into it.",
+            "The child is a duplicate of the parent.",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A _________________ saves the state of the currently running process and restores the state of the next process to run.",
+        "options": ["save-and-restore", "state switch", "context switch", "none of the above"],
+        "answer": 2
+    },
+    {
+        "question": "A blocking send() and blocking receive() is known as a(n) _________________",
+        "options": [
+            "synchronized message",
+            "rendezvous",
+            "blocked message",
+            "asynchronous message"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A/an ______________ allows several unrelated processes to use the pipe for communication.",
+        "options": ["named pipe", "FIFO pipe", "LIFO", "ordinary pipe"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": [
+            "Shared memory is typically faster than message passing.",
+            "Message passing is typically faster than shared memory.",
+            "Message passing is most useful for exchanging large amounts of data.",
+            "Shared memory is far more common in operating systems than message passing."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Child processes inherit UNIX ordinary pipes from their parent process because:",
+        "options": [
+            "The pipe is part of the code and children inherit code from their parents.",
+            "A pipe is treated as a file descriptor and child processes inherit open file descriptors from their parents.",
+            "The STARTUPINFO structure establishes this sharing.",
+            "All IPC facilities are shared between the parent and child processes."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A process that has terminated, but whose parent has not yet called wait(), is known as a ________ process.",
+        "options": ["zombie", "orphan", "terminated", "init"],
+        "answer": 0
+    },
+    {
+        "question": "The _______ process is assigned as the parent to orphan processes.",
+        "options": ["zombie", "init", "main", "renderer"],
+        "answer": 1
+    },
+    {
+        "question": "The ____ multithreading model multiplexes many user-level threads to a smaller or equal number of kernel threads.",
+        "options": [
+            "many-to-one model",
+            "one-to-one model",
+            "many-to-many model",
+            "one-to-some model"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Thread-local storage is data that ____.",
+        "options": [
+            "is not associated with any process",
+            "has been modified by the thread, but not yet updated to the parent process",
+            "is generated by the thread independent of the thread's process",
+            "is unique to each thread"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "For threads, Windows uses the ____.",
+        "options": [
+            "one-to-one model",
+            "many-to-one model",
+            "one-to many-model",
+            "many-to-many model"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "_____ is not considered a challenge when designing applications for multicore systems.",
+        "options": [
+            "Deciding which activities can be run in parallel",
+            "Ensuring there is a sufficient number of cores",
+            "Determining if data can be separated so that it is accessed on separate cores",
+            "Identifying data dependencies between tasks."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In Pthreads, a parent uses the pthread_join() function to wait for its child thread to complete. What is the equivalent function in Win32?",
+        "options": ["win32_join()", "wait()", "WaitForSingleObject()", "join()"],
+        "answer": 2
+    },
+    {
+        "question": "A _____ uses an existing thread --- rather than creating a new one --- to complete a task.",
+        "options": [
+            "lightweight process",
+            "thread pool",
+            "scheduler activation",
+            "asynchronous procedure call"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "___________ is a formula that identifies potential performance gains from adding additional computing cores to an application that has a parallel and serial component.",
+        "options": ["Task parallelism", "Data parallelism", "Data splitting", "Amdahl's Law"],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is true of cooperative scheduling?",
+        "options": [
+            "It requires a timer.",
+            "A process keeps the CPU until it releases the CPU either by terminating or by switching to the waiting state.",
+            "It incurs a cost associated with access to shared data.",
+            "A process switches from the running state to the ready state when an interrupt occurs."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "____ is the number of processes that are completed per time unit.",
+        "options": ["CPU utilization", "Response time", "Turnaround time", "Throughput"],
+        "answer": 3
+    },
+    {
+        "question": "____ scheduling is approximated by predicting the next CPU burst with an exponential average of the measured lengths of previous CPU bursts.",
+        "options": ["Multilevel queue", "RR", "FCFS", "SJF"],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following scheduling algorithms must be nonpreemptive?",
+        "options": ["SJF", "RR", "FCFS", "priority algorithms"],
+        "answer": 2
+    },
+    {
+        "question": "In Little's formula, $lambda$, represents the ____.",
+        "options": [
+            "average waiting time in the queue",
+            "average arrival rate for new processes in the queue",
+            "average queue length",
+            "average CPU utilization"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "______ allows a thread to run on only one processor.",
+        "options": ["Processor affinity", "Processor set", "NUMA", "Load balancing"],
+        "answer": 0
+    },
+    {
+        "question": "A significant problem with priority scheduling algorithms is _____.",
+        "options": [
+            "complexity",
+            "starvation",
+            "determining the length of the next CPU burst",
+            "determining the length of the time quantum"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The ______ occurs in first-come-first-served scheduling when a process with a long CPU burst occupies the CPU.",
+        "options": ["dispatch latency", "waiting time", "convoy effect", "system-contention scope"],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is true of earliest-deadline-first (EDF) scheduling algorithm?",
+        "options": [
+            "When a process becomes runnable, it must announce its deadline requirements to the system.",
+            "Deadlines are assigned as following: the earlier the deadline, the lower the priority; the later the deadline, the higher the priority.",
+            "Priorities are fixed; that is, they cannot be adjusted when a new process starts running.",
+            "It assigns priorities statically according to deadline."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A race condition ____.",
+        "options": [
+            "results when several threads try to access the same data concurrently",
+            "results when several threads try to access and modify the same data concurrently",
+            "will result only if the outcome of execution does not depend on the order in which instructions are executed",
+            "None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "An instruction that executes atomically ____.",
+        "options": [
+            "must consist of only one machine instruction",
+            "executes as a single, uninterruptible unit",
+            "cannot be used to solve the critical section problem",
+            "All of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the correct order of operations for protecting a critical section using mutex locks?",
+        "options": [
+            "release() followed by acquire()",
+            "acquire() followed by release()",
+            "wait() followed by signal()",
+            "signal() followed by wait()"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the correct order of operations for protecting a critical section using a binary semaphore?",
+        "options": [
+            "release() followed by acquire()",
+            "acquire() followed by release()",
+            "wait() followed by signal()",
+            "signal() followed by wait()"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A/an _______ refers to where a process is accessing/updating shared data.",
+        "options": ["critical section", "entry section", "mutex", "test-and-set"],
+        "answer": 0
+    },
+    {
+        "question": "_____ can be used to prevent busy waiting when implementing a semaphore.",
+        "options": [
+            "Spinlocks",
+            "Waiting queues",
+            "Mutex lock",
+            "Allowing the wait() operation to succeed"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "How many philosophers may eat simultaneously in the Dining Philosophers problem with 5 philosophers?",
+        "options": ["1", "2", "3", "5"],
+        "answer": 1
+    },
+    {
+        "question": "When using semaphores, a process invokes the wait() operation before accessing its critical section, followed by the signal() operation upon completion of its critical section. Consider reversing the order of these two operations---first calling signal(), then calling wait(). What would be a possible outcome of this?",
+        "options": [
+            "Starvation is possible.",
+            "Several processes could be active in their critical sections at the same time.",
+            "Mutual exclusion is still assured.",
+            "Deadlock is possible."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The OpenMP #pragma omp critical directive ___________.",
+        "options": [
+            "behaves much like a mutex lock",
+            "does not require programmers to identify critical sections",
+            "does not guarantee prevention of race conditions",
+            "is similar to functional languages"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "One necessary condition for deadlock is ____, which states that at least one resource must be held in a nonsharable mode.",
+        "options": ["hold and wait", "mutual exclusion", "circular wait", "no preemption"],
+        "answer": 1
+    },
+    {
+        "question": "One necessary condition for deadlock is ______, which states that a process must be holding one resource and waiting to acquire additional resources.",
+        "options": ["hold and wait", "mutual exclusion", "circular wait", "no preemption"],
+        "answer": 0
+    },
+    {
+        "question": "One necessary condition for deadlock is ______, which states that a resource can be released only voluntarily by the process holding the resource.",
+        "options": ["hold and wait", "mutual exclusion", "circular wait", "no preemption"],
+        "answer": 3
+    },
+    {
+        "question": "One necessary condition for deadlock is ______, which states that there is a chain of waiting processes whereby P0 is waiting for a resource held by P1, P1 is waiting for a resource held by P2, and Pn is waiting for a resource held by P0.",
+        "options": ["hold and wait", "mutual exclusion", "circular wait", "no preemption"],
+        "answer": 2
+    },
+    {
+        "question": "In a system resource-allocation graph, ____.",
+        "options": [
+            "a directed edge from a process to a resource is called an assignment edge",
+            "a directed edge from a resource to a process is called a request edge",
+            "a directed edge from a process to a resource is called a request edge",
+            "None of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A _____ could be preempted from a process.",
+        "options": ["mutex lock", "CPU", "semaphore", "file lock"],
+        "answer": 1
+    },
+    {
+        "question": "Absolute code can be generated for ____.",
+        "options": [
+            "compile-time binding",
+            "load-time binding",
+            "execution-time binding",
+            "interrupt binding"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "An address generated by a CPU is referred to as a ____.",
+        "options": [
+            "physical address",
+            "logical address",
+            "post relocation register address",
+            "Memory-Management Unit (MMU) generated address"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Suppose a program is operating with execution-time binding and the physical address generated is 300. The relocation register is set to 100. What is the corresponding logical address?",
+        "options": ["199", "201", "200", "300"],
+        "answer": 2
+    },
+    {
+        "question": "The mapping of a logical address to a physical address is done in hardware by the ________.",
+        "options": [
+            "memory-management-unit (MMU)",
+            "memory address register",
+            "relocation register",
+            "dynamic loading register"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "_____ is the dynamic storage-allocation algorithm which results in the smallest leftover hole in memory.",
+        "options": ["First fit", "Best fit", "Worst fit", "None of the above"],
+        "answer": 1
+    },
+    {
+        "question": "_____ is the dynamic storage-allocation algorithm which results in the largest leftover hole in memory.",
+        "options": ["First fit", "Best fit", "Worst fit", "None of the above"],
+        "answer": 2
+    },
+    {
+        "question": "Consider a logical address with a page size of 8 KB. How many bits must be used to represent the page offset in the logical address?",
+        "options": ["10", "8", "13", "12"],
+        "answer": 2
+    },
+    {
+        "question": "Assume a system has a TLB hit ratio of 90%. It requires 15 nanoseconds to access the TLB, and 85 nanoseconds to access main memory. What is the effective memory access time in nanoseconds for this system?",
+        "options": ["108.5", "100", "22", "176.5"],
+        "answer": 0
+    },
+    {
+        "question": "Given the logical address 0xAEF9 (in hexadecimal) with a page size of 256 bytes, what is the page number?",
+        "options": ["0xAE", "0xF9", "0xA", "0x00F9"],
+        "answer": 0
+    },
+    {
+        "question": "Given the logical address 0xAEF9 (in hexadecimal) with a page size of 256 bytes, what is the page offset?",
+        "options": ["0xAE", "0xF9", "0xA", "0xF900"],
+        "answer": 1
+    },
+    {
+        "question": "Assume the value of the base and limit registers are 1200 and 350 respectively. Which of the following addresses is legal?",
+        "options": ["355", "1200", "1551", "all of the above"],
+        "answer": 1
+    },
+    {
+        "question": "Suppose we have the following page accesses: 1 2 3 4 2 3 4 1 2 1 1 3 1 4 and that there are three frames within our system. Using the FIFO replacement algorithm, what is the number of page faults for the given reference string?",
+        "options": ["14", "8", "13", "10"],
+        "answer": 1
+    },
+    {
+        "question": "Belady's anomaly states that ____.",
+        "options": [
+            "giving more memory to a process will improve its performance",
+            "as the number of allocated frames increases, the page-fault rate may decrease for all page replacement algorithms",
+            "for some page replacement algorithms, the page-fault rate may decrease as the number of allocated frames increases",
+            "for some page replacement algorithms, the page-fault rate may increase as the number of allocated frames increases"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "________ allows the parent and child processes to initially share the same pages, but when either process modifies a page, a copy of the shared page is created.",
+        "options": ["copy-on-write", "zero-fill-on-demand", "memory-mapped", "virtual memory fork"],
+        "answer": 0
+    },
+    {
+        "question": "What size segment will be allocated for a 39 KB request on a system using the Buddy system for kernel memory allocation?",
+        "options": ["39 KB", "42 KB", "64 KB", "None of the above"],
+        "answer": 2
+    },
+    {
+        "question": "______ allows a portion of a virtual address space to be logically associated with a file.",
+        "options": ["Memory-mapping", "Shared memory", "Slab allocation", "Locality of reference"],
+        "answer": 3
+    },
+    {
+        "question": "Systems in which memory access times vary significantly are known as __________.",
+        "options": [
+            "memory-mapped I/O",
+            "demand-paged memory",
+            "non-uniform memory access",
+            "copy-on-write memory"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is considered a benefit when using the slab allocator?",
+        "options": [
+            "Memory is allocated using a simple power-of-2 allocator.",
+            "It allows kernel code and data to be efficiently paged.",
+            "It allows larger segments to be combined using coalescing.",
+            "There is no memory fragmentation."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A shared lock ____.",
+        "options": [
+            "behaves like a writer lock",
+            "ensures that a file can have only a single concurrent shared lock",
+            "behaves like a reader lock",
+            "will prevent all other processes from accessing the locked file"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "An exclusive lock ____.",
+        "options": [
+            "behaves like a writer lock",
+            "ensures that a file can have only a single concurrent shared lock",
+            "behaves like a reader lock",
+            "will prevent all other processes from accessing the locked file"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A _____ is used on UNIX systems at the beginning of some files to roughly indicate the type of the file.",
+        "options": ["file extension", "creator name", "hint", "magic number"],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is true of the direct-access method for files?",
+        "options": [
+            "It is the most common mode of access.",
+            "It allows programs to read and write records in no particular order.",
+            "Files are made up of variable-length records.",
+            "It is not a good method for accessing large amounts of data quickly."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "______ is a secure, distributed naming mechanism.",
+        "options": [
+            "Lightweight directory-access protocol (LDAP)",
+            "Domain name system (DNS)",
+            "Common internet file system (CIFS)",
+            "Network information service (NIS)"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A mount point is _____.",
+        "options": [
+            "a root of the file system",
+            "a location of a shared file system",
+            "only appropriate for shared file systems",
+            "the location within the file structure where the file system is to be attached."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Transfers between memory and disk are performed a ____.",
+        "options": ["byte at a time", "file at a time", "block at a time", "sector at a time"],
+        "answer": 2
+    },
+    {
+        "question": "Order the following file system layers in order of lowest level to highest level.\n[1] I/O control\n[2] logical file system\n[3] basic file system\n[4] file-organization module\n[5] devices",
+        "options": ["1, 3, 5, 4, 2", "5, 1, 3, 2, 4", "1, 5, 3, 4, 2", "5, 1, 3, 4, 2"],
+        "answer": 3
+    },
+    {
+        "question": "In the Linux VFS architecture, a/an ____ object represents an individual file.",
+        "options": ["inode", "file", "superblock", "dentry"],
+        "answer": 0
+    },
+    {
+        "question": "A disk with free blocks 0,1,5,9,15 would be represented with what bit map?",
+        "options": ["0011101110111110", "1100010001000001", "0100010001000001", "1100010001000000"],
+        "answer": 1
+    },
+    {
+        "question": "How many disk accesses are necessary for direct access to byte 20680 using linked allocation and assuming each disk block is 4 KB in size?",
+        "options": ["1", "6", "8", "4"],
+        "answer": 1
+    },
+    {
+        "question": "Consider a system crash on a log-structured file system. Which one of the following events must occur?",
+        "options": [
+            "Only aborted transactions must be completed.",
+            "All transactions in the log must be completed.",
+            "All transactions in the log must be marked as invalid.",
+            "File consistency checking must be performed."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The SSTF scheduling algorithm ____.",
+        "options": [
+            "services the request with the maximum seek time",
+            "services the request with the minimum seek time",
+            "chooses to service the request furthest from the current head position",
+            "None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Consider a disk queue holding requests to the following cylinders in the listed order: 116, 22, 3, 11, 75, 185, 100, 87. Using the SCAN scheduling algorithm, what is the order that the requests are serviced, assuming the disk head is at cylinder 88 and moving upward through the cylinders?",
+        "options": [
+            "116 - 22 - 3 - 11 - 75 - 185 - 100 - 87",
+            "100 - 116 - 185 - 87 - 75 - 22 - 11 - 3",
+            "87 - 75 - 100 - 116 - 185 - 22 - 11 - 3",
+            "100 - 116 - 185 - 3 - 11 - 22 - 75 - 87"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Consider a disk queue holding requests to the following cylinders in the listed order: 116, 22, 3, 11, 75, 185, 100, 87. Using the FCFS scheduling algorithm, what is the order that the requests are serviced, assuming the disk head is at cylinder 88 and moving upward through the cylinders?",
+        "options": [
+            "116 - 22 - 3 - 11 - 75 - 185 - 100 - 87",
+            "100 - 116 - 185 - 87 - 75 - 22 - 11 - 3",
+            "87 - 75 - 100 - 116 - 185 - 22 - 11 - 3",
+            "100 - 116 - 185 - 3 - 11 - 22 - 75 - 87"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following statements regarding solid state disks (SSDs) is false?",
+        "options": [
+            "They generally consume more power than traditional hard disks.",
+            "They have the same characteristics as magnetic hard disks, but can be more reliable.",
+            "They are generally more expensive per megabyte than traditional hard disks.",
+            "They have no seek time or latency."
+        ],
+        "answer": 0
+    }
+]

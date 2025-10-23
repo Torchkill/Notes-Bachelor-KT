@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Suppose we have the following page accesses: 1 2 3 4 2 3 4 1 2 1 1 3 1 4 and that there are three frames within our system. Using the FIFO replacement algorithm, what is the number of page faults for the given reference string?",
+        "options": ["14", "8", "13", "10"],
+        "answer": 1
+    },
+    {
+        "question": "Belady's anomaly states that ____.",
+        "options": [
+            "giving more memory to a process will improve its performance",
+            "as the number of allocated frames increases, the page-fault rate may decrease for all page replacement algorithms",
+            "for some page replacement algorithms, the page-fault rate may decrease as the number of allocated frames increases",
+            "for some page replacement algorithms, the page-fault rate may increase as the number of allocated frames increases"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "________ allows the parent and child processes to initially share the same pages, but when either process modifies a page, a copy of the shared page is created.",
+        "options": ["copy-on-write", "zero-fill-on-demand", "memory-mapped", "virtual memory fork"],
+        "answer": 0
+    },
+    {
+        "question": "What size segment will be allocated for a 39 KB request on a system using the Buddy system for kernel memory allocation?",
+        "options": ["39 KB", "42 KB", "64 KB", "None of the above"],
+        "answer": 2
+    },
+    {
+        "question": "______ allows a portion of a virtual address space to be logically associated with a file.",
+        "options": ["Memory-mapping", "Shared memory", "Slab allocation", "Locality of reference"],
+        "answer": 3
+    },
+    {
+        "question": "Systems in which memory access times vary significantly are known as __________.",
+        "options": [
+            "memory-mapped I/O",
+            "demand-paged memory",
+            "non-uniform memory access",
+            "copy-on-write memory"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is considered a benefit when using the slab allocator?",
+        "options": [
+            "Memory is allocated using a simple power-of-2 allocator.",
+            "It allows kernel code and data to be efficiently paged.",
+            "It allows larger segments to be combined using coalescing.",
+            "There is no memory fragmentation."
+        ],
+        "answer": 1
+    }
+]

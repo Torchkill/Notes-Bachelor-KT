@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Transfers between memory and disk are performed a ____.",
+        "options": ["byte at a time", "file at a time", "block at a time", "sector at a time"],
+        "answer": 2
+    },
+    {
+        "question": "Order the following file system layers in order of lowest level to highest level.\n[1] I/O control\n[2] logical file system\n[3] basic file system\n[4] file-organization module\n[5] devices",
+        "options": ["1, 3, 5, 4, 2", "5, 1, 3, 2, 4", "1, 5, 3, 4, 2", "5, 1, 3, 4, 2"],
+        "answer": 3
+    },
+    {
+        "question": "In the Linux VFS architecture, a/an ____ object represents an individual file.",
+        "options": ["inode", "file", "superblock", "dentry"],
+        "answer": 0
+    },
+    {
+        "question": "A disk with free blocks 0,1,5,9,15 would be represented with what bit map?",
+        "options": ["0011101110111110", "1100010001000001", "0100010001000001", "1100010001000000"],
+        "answer": 1
+    },
+    {
+        "question": "How many disk accesses are necessary for direct access to byte 20680 using linked allocation and assuming each disk block is 4 KB in size?",
+        "options": ["1", "6", "8", "4"],
+        "answer": 1
+    },
+    {
+        "question": "Consider a system crash on a log-structured file system. Which one of the following events must occur?",
+        "options": [
+            "Only aborted transactions must be completed.",
+            "All transactions in the log must be completed.",
+            "All transactions in the log must be marked as invalid.",
+            "File consistency checking must be performed."
+        ],
+        "answer": 1
+    }
+]

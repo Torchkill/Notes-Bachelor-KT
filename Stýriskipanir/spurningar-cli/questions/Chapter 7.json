@@ -1,0 +1,117 @@
+[
+    {
+        "question": "What is the purpose of the mutex semaphore in the implementation of the bounded-buffer problem using semaphores?",
+        "options": [
+            "It indicates the number of empty slots in the buffer.",
+            "It indicates the number of occupied slots in the buffer.",
+            "It controls access to the shared buffer.",
+            "It ensures mutual exclusion."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The first readers-writers problem ____.",
+        "options": [
+            "requires that, once a writer is ready, that writer performs its write as soon as possible.",
+            "is not used to test synchronization primitives.",
+            "requires that no reader will be kept waiting unless a writer has already obtained permission to use the shared database.",
+            "requires that no reader will be kept waiting unless a reader has already obtained permission to use the shared database."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "How many philosophers may eat simultaneously in the Dining Philosophers problem with 5 philosophers?",
+        "options": ["1", "2", "3", "5"],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": [
+            "Operations on atomic integers do not require locking.",
+            "Operations on atomic integers do require additional locking.",
+            "Linux only provides the atomic_inc() and atomic_sub() operations.",
+            "Operations on atomic integers can be interrupted."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A thread will immediately acquire a dispatcher lock that is the signaled state.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Linux mostly uses atomic integers to manage race conditions within the kernel.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Pthreads can be implemented",
+        "options": [
+            "only inside the operating system kernel",
+            "only at the user level",
+            "at the user level or inside the operating system kernel",
+            "only Windows OS"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "When the owner of a mutex lock invokes pthread mutex unlock(), all threads blocked on that mutex's lock are unblocked.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A call to pthread_cond_signal()",
+        "options": [
+            "releases the mutex lock and signals one thread waiting on the condition variable.",
+            "releases the mutex lock and signals all threads waiting on the condition variable.",
+            "signals one thread waiting on the condition variable, but does not release the mutex lock.",
+            "signals all threads waiting on the condition variable, but does not release the mutex lock."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In JAVA, when a thread calls notify(), an arbitrary thread T from the list of threads in the wait set",
+        "options": [
+            "is set to runnable state and T immediately regains the control of the lock.",
+            "is set to runnable state and is moved from the wait set to entry set where it regains the control of the lock as soon as the thread calling notify() exits its method.",
+            "is set to runnable state and is moved from the wait set to entry set where it regains the control of the lock only after all other threads in the entry set have acquired and released the lock.",
+            "is set to runnable state and is moved from the wait set to entry set where it competes for the lock with the other threads in the entry set."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A reentrant lock allows for granting the lock to the longest-waiting thread when unlock() is called.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "When a thread invokes the signal() method of a condition variable, all threads blocked on that condition variable are unblocked.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The OpenMP #pragma omp critical directive ____.",
+        "options": [
+            "behaves much like a mutex lock",
+            "does not require programmers to identify critical sections",
+            "does not guarantee prevention of race conditions",
+            "is similar to functional languages"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "An advantage of transactional memory system is that the developer doesn't have to worry about implementing atomicity.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In a functional programming language,",
+        "options": [
+            "variables may be assigned different values over time.",
+            "value of a variable can be changed only by the thread that created it.",
+            "value of a variable is immutable.",
+            "developers have to implement atomicity."
+        ],
+        "answer": 2
+    }
+]

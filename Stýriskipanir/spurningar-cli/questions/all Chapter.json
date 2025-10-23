@@ -1,0 +1,1717 @@
+[
+    {
+        "question": "__________ is a set of software frameworks that provide additional services to application developers.",
+        "options": ["System programs", "Virtualization", "Cloud computing", "Middleware"],
+        "answer": 3
+    },
+    {
+        "question": "The operating system kernel consists of all system and application programs in a computer.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "All computer systems have some sort of user interaction.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The most common secondary storage device is ____.",
+        "options": ["random access memory", "solid state disks", "tape drives", "magnetic disk"],
+        "answer": 3
+    },
+    {
+        "question": "Flash memory is slower than DRAM but needs no power to retain its contents.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Interrupts may be triggered by either hardware of software",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following would lead you to believe that a given system is an SMP-type system?",
+        "options": [
+            "Each processor is assigned a specific task.",
+            "There is a boss-worker relationship between the processors.",
+            "Each processor performs all tasks within the operating system.",
+            "None of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A clustered system ____.",
+        "options": [
+            "gathers together multiple CPUs to accomplish computational work",
+            "is an operating system that provides file sharing across a network",
+            "is used when rigid time requirements are present",
+            "can only operate one application at a time"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A dual-core system requires each core has its own cache memory.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A ____ can be used to prevent a user program from never returning control to the operating system.",
+        "options": ["portal", "program counter", "firewall", "timer"],
+        "answer": 3
+    },
+    {
+        "question": "What is another term for kernel mode?",
+        "options": ["supervisor mode", "system mode", "privileged mode", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "What statement concerning privileged instructions is considered false?",
+        "options": [
+            "They may cause harm to the system.",
+            "They can only be executed in kernel mode.",
+            "They cannot be attempted from user mode.",
+            "They are used to manage interrupts."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Two important design issues for cache memory are ____.",
+        "options": [
+            "speed and volatility",
+            "size and replacement policy",
+            "power consumption and reusability",
+            "size and access privileges"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A(n) ________ is the unit of work in a system.",
+        "options": ["process", "operating system", "timer", "mode bit"],
+        "answer": 0
+    },
+    {
+        "question": "Program counter specifies the current instruction to execute.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "UNIX does not allow users to escalate privileges to gain extra permissions for a restricted activity.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Security is equivalent to protection with no difference.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Effective UID is the same as user identifiers (user IDs).",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Virtualization software is one member of a class that differs from emulation.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A virtual machine can be switched like a process in the operating system.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "VMware application was a virtual machine manager (VMM).",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "Bluetooth and 802.11 devices use wireless technology to communicate over several feet, in essence creating a ____.",
+        "options": [
+            "local-area network",
+            "wide-area network",
+            "small-area network",
+            "metropolitan-area network"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "There are a fixed number of network protocols.",
+        "options": ["Yes", "No"],
+        "answer": 1
+    },
+    {
+        "question": "Internet is a network of networks.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "A stack is a sequentially ordered data structure that uses the first in, first out (FIFO) principle for adding and removing items.",
+        "options": ["Yes", "No"],
+        "answer": 1
+    },
+    {
+        "question": "In a binary tree, a parent may have at most two children.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "Hash collision refers to the phenomenon of hash function in which two unique inputs result in the same output value.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "Embedded computers typically run on a ____ operating system.",
+        "options": ["real-time", "Windows XP", "network", "clustered"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is a property of peer-to-peer systems?",
+        "options": [
+            "Clients and servers are not distinguished from one another.",
+            "Separate machines act as either the client of the server but not both.",
+            "They do not offer any advantages over traditional client-server systems.",
+            "They suffer from the server acting as the bottleneck in performance."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A _____ provides a file-system interface which allows clients to create and modify files.",
+        "options": [
+            "compute-server system",
+            "file-server system",
+            "wireless network",
+            "network computer"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following statements concerning open source operating systems is true?",
+        "options": [
+            "Solaris is open source.",
+            "Source code is freely available.",
+            "They are always more secure than commercial, closed systems.",
+            "All open source operating systems share the same set of goals."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following operating systems is not open source?",
+        "options": ["Windows", "BSD UNIX", "Linux", "PCLinuxOS"],
+        "answer": 0
+    },
+    {
+        "question": "A ____ is a custom build of the Linux operating system",
+        "options": ["LiveCD", "installation", "distribution", "VMWare Player"],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is a benefit of allowing a program that is only partially in memory to execute?",
+        "options": [
+            "Programs can be written to use more memory than is available in physical memory.",
+            "CPU utilization and throughput is increased.",
+            "Less I/O is needed to load or swap each user program into memory.",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In systems that support virtual memory, ____.",
+        "options": [
+            "virtual memory is separated from logical memory.",
+            "virtual memory is separated from physical memory.",
+            "physical memory is separated from secondary storage.",
+            "physical memory is separated from logical memory."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In general, virtual memory decreases the degree of multiprogramming in a system.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "On a system with demand-paging, a process will experience a high page fault rate when the process begins execution.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A page fault occurs when",
+        "options": [
+            "a page in memory get corrupted.",
+            "the size of a process is larger than the size of the physical memory.",
+            "a process tries to access a page that is not loaded in memory.",
+            "the page table is not large enough to include all page table entries."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "If memory access time is 250 nanoseconds and average page fault service time 10 milliseconds, the probability of page faults must be less ______ to keep the performance degradation less than 20%.",
+        "options": ["0.0000025", "0.000005", "0.0000075", "0.00001"],
+        "answer": 1
+    },
+    {
+        "question": "The vfork() system call in UNIX ____.",
+        "options": [
+            "allows the child process to use the address space of the parent",
+            "uses copy-on-write with the fork() call",
+            "is not intended to be used when the child process calls exec() immediately after creation",
+            "duplicates all pages that are modified by the child process"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "________ allows the parent and child processes to initially share the same pages, but when either process modifies a page, a copy of the shared page is created.",
+        "options": ["copy-on-write", "zero-fill-on-demand", "memory-mapped", "virtual memory fork"],
+        "answer": 0
+    },
+    {
+        "question": "On systems that provide it, vfork() should always be used instead of fork().",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Suppose we have the following page accesses: 1 2 3 4 2 3 4 1 2 1 1 3 1 4 and that there are three frames within our system. Using the LRU replacement algorithm, what is the number of page faults for the given reference string?",
+        "options": ["14", "13", "8", "10"],
+        "answer": 2
+    },
+    {
+        "question": "Belady's anomaly states that ____.",
+        "options": [
+            "giving more memory to a process will improve its performance",
+            "as the number of allocated frames increases, the page-fault rate may decrease for all page replacement algorithms",
+            "for some page replacement algorithms, the page-fault rate may decrease as the number of allocated frames increases",
+            "for some page replacement algorithms, the page-fault rate may increase as the number of allocated frames increases"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In the enhanced second chance algorithm, which of the following ordered pairs represents a page that would be the best choice for replacement?",
+        "options": ["(0,0)", "(0,1)", "(1,0)", "(1,1)"],
+        "answer": 0
+    },
+    {
+        "question": "The _____ allocation algorithm allocates available memory to each process according to its size.",
+        "options": ["equal", "global", "proportional", "slab"],
+        "answer": 2
+    },
+    {
+        "question": "Systems in which memory access times vary significantly are known as __________.",
+        "options": [
+            "memory-mapped I/O",
+            "demand-paged memory",
+            "non-uniform memory access",
+            "copy-on-write memory"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Non-uniform memory access has little effect on the performance of a virtual memory system.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "_____ occurs when a process spends more time paging than executing.",
+        "options": ["Thrashing", "Memory-mapping", "Demand paging", "Swapping"],
+        "answer": 0
+    },
+    {
+        "question": "The _____ is an approximation of a program's locality.",
+        "options": [
+            "locality model",
+            "working set",
+            "page fault frequency",
+            "page replacement algorithm"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "If the page-fault rate is too high, the process may have too many frames.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Memory compression is commonly used in mobile systems instead of swapping.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In memory compression,",
+        "options": [
+            "compression ratio needs to be balanced with the temporary memory needed for compression.",
+            "compression ratio needs to be balanced with the number of pages to be compressed.",
+            "compression ratio needs to be balanced with the compression time.",
+            "compression ratio needs to be balanced with page size."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Memory compression is faster than swapping pages to hard disks, but slower than swapping pages to SSDs.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "What size segment will be allocated for a 39 KB request on a system using the Buddy system for kernel memory allocation?",
+        "options": ["39 KB", "42 KB", "64 KB", "None of the above"],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following statements is false with regard to allocating kernel memory?",
+        "options": [
+            "Slab allocation does not suffer from fragmentation.",
+            "Adjacent segments can be combined into one larger segment with the buddy system.",
+            "Because the kernel requests memory of varying sizes, some of which may be quite small, the system does not have to be concerned about wasting memory.",
+            "The slab allocator allows memory requests to be satisfied very quickly."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is considered a benefit when using the slab allocator?",
+        "options": [
+            "Memory is allocated using a simple power-of-2 allocator.",
+            "It allows kernel code and data to be efficiently paged.",
+            "It allows larger segments to be combined using coalescing.",
+            "There is no memory fragmentation."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The ____ is the number of entries in the TLB multiplied by the page size.",
+        "options": ["TLB cache", "page resolution", "TLB reach", "hit ratio"],
+        "answer": 2
+    },
+    {
+        "question": "Only a fraction of a process's working set needs to be stored in the TLB.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Prepaging can be an advantage, because",
+        "options": [
+            "the cost of using prepaging is less than the cost of servicing the corresponding page faults.",
+            "the initial pages a process accesses are typically well known in advance.",
+            "prepaging starts before a process is scheduled for execution.",
+            "All of the above."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Windows uses a local page replacement policy _____.",
+        "options": [
+            "when a process exceeds its working set minimum",
+            "when a process exceeds its working set maximum",
+            "when the system undergoes automatic working set trimming",
+            "under all circumstances"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following statements is false with regard to Solaris memory management?",
+        "options": [
+            "The speed at which pages are examined (the scanrate) is constant.",
+            "The pageout process only runs if the number of free pages is less than lotsfree.",
+            "An LRU approximation algorithm is employed.",
+            "Pages selected for replacement may be reclaimed before being placed on the free list."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In Linux,",
+        "options": [
+            "pages in active list may be moved to inactive list.",
+            "pages in inactive list may be moved to active list.",
+            "pages in inactive list are may be reclaimed for the free list.",
+            "All of the above."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Type 0 supervisors are most commonly applied in mainframes",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Paravirtualization does not affect the guest operating system",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Application containment is one of the most efficient virtualization approaches",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Microsoft launched first commercial virtual machines",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The virtualization requirement postulate that virtual machine manager has full control over system resources",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Intel 80 x 86 CPUs were popular base hardware for virtualization purposes in late 1970s",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Host system is protected from a virtual machine, but several virtual machines running on the same host are not protected from each other",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Virtual machine managers allow to make snapshots of host system",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "When a single image of a virtual machine is used as a source for multiple running guests, we call this templating",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Guest virtual machines share information about their interrupts",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The drawback of privileged instructions lies in",
+        "options": [
+            "sequential realization",
+            "additional time overhead",
+            "pointer issues",
+            "difficult memory management"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Nested page tables allow for",
+        "options": [
+            "data corruption protection when creating new guests and their paging systems",
+            "up of the virtual machine manager paging",
+            "efficient management of page tables for guests and virtual machine manager",
+            "managing higher number of guests by virtual machine manager"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which type of virtual machine manager offers purely hardware-based support for virtualization",
+        "options": [
+            "type 0 hypervisor",
+            "type 1 hypervisor",
+            "type 2 hypervisor",
+            "type 3 hypervisor"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "How do you call a situation, where there are too many virtual machines being created",
+        "options": [
+            "virtual machine overload",
+            "virtual machine overflow",
+            "virtual machine sprawl",
+            "virtual machine sequencing"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What type of solution should be recommended for a bank that has updated its hardware architecture, but for stability reasons would like to maintain the old software",
+        "options": [
+            "application containment",
+            "emulation",
+            "paravirtualization",
+            "type 1 hypervisor"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In synchronous writes data is being stored in caches, with caller obtaining the control",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "As guests may have multiple addresses, virtual machine manager must work as a virtual router for",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "What allows virtual machine manager to re-translate guest pages into real page tables",
+        "options": [
+            "virtual cache",
+            "nested page tables",
+            "virtual page tables",
+            "linked page tables"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "System call interface is the boundary between user programs and operating system services.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "Graphical User Interface (GUI) is the most common user interface.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "Touch screen is a user interface on mobile systems.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "KDE and GNOME desktops are available under open-source licenses.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "There is only a single flavor of shells for users to choose.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "_____ is not one of the major categories of system calls.",
+        "options": ["Process control", "Communications", "Protection", "Security"],
+        "answer": 3
+    },
+    {
+        "question": "_____ is/are not a technique for passing parameters from an application to a system call.",
+        "options": ["Cache memory", "Registers", "Stack", "Special block in memory"],
+        "answer": 0
+    },
+    {
+        "question": "System calls can be run in either user mode or kernel mode.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A _____ is an example of a systems program.",
+        "options": ["command interpreter", "Web browser", "text formatter", "database system"],
+        "answer": 0
+    },
+    {
+        "question": "System programs all run in kernel mode.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Web browser is a system program",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Source files are compiled into object file(s) which use absolute addresses.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A statically-linked library is only linked and loaded if it is conditionally required during program runtime.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Applications that are designed to work on one operating system will also work on another operating system as long as they provide the same APIs.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Policy ____.",
+        "options": [
+            "determines how to do something",
+            "determines what will be done",
+            "is not likely to change across places",
+            "is not likely to change over time"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A policy should be defined together with the mechanism.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "An operating system is far easier to port-to move to some other hardware-if it is written in a lowerlevel language.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The major difficulty in designing a layered operating system approach is ____.",
+        "options": [
+            "appropriately defining the various layers",
+            "making sure that each layer hides certain data structures, hardware, and operations from higherlevel layers",
+            "debugging a particular layer",
+            "making sure each layer is easily converted to modules"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A microkernel is a kernel ____.",
+        "options": [
+            "containing many components that are optimized to reduce resident memory size",
+            "that is compressed before loading in order to reduce its resident memory size",
+            "that is compiled to produce the smallest size possible when stored to disk",
+            "that is stripped of all nonessential components"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "_____ allows operating system services to be loaded dynamically.",
+        "options": ["Virtual machines", "Modules", "File systems", "Graphical user interfaces"],
+        "answer": 1
+    },
+    {
+        "question": "To the SYSGEN program of an operating system, the least useful piece of information is _____.",
+        "options": [
+            "the CPU being used",
+            "amount of memory available",
+            "what applications to install",
+            "operating-system options such as buffer sizes or CPU scheduling algorithms"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A boot block ____.",
+        "options": [
+            "typically only knows the location and length of the rest of the bootstrap program",
+            "typically is sophisticated enough to load the operating system and begin its execution",
+            "is composed of multiple disk blocks",
+            "is composed of multiple disk cylinders"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "An initial bootstrap program is in the form of random-access memory (RAM).",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "If a program terminates abnormally, a dump of memory may be examined by a ____ to determine the cause of the problem.",
+        "options": ["module", "debugger", "shell", "control card"],
+        "answer": 1
+    },
+    {
+        "question": "Tools for operating system debugging must be system-wide.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Debugging is the activity of finding and fixing errors in a system, only in software.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The ____ of a process contains temporary data such as function parameters, return addresses, and local variables.",
+        "options": ["text section", "data section", "program counter", "stack"],
+        "answer": 3
+    },
+    {
+        "question": "A process control block ____.",
+        "options": [
+            "includes information on the process's state",
+            "stores the address of the next instruction to be processed by a different process",
+            "determines which process is to be executed next",
+            "is an example of a process queue"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A process may transition to the Ready state by which of the following actions?",
+        "options": [
+            "Completion of an I/O event",
+            "Awaiting its turn on the CPU",
+            "Newly-admitted process",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The _____________ refers to the number of processes in memory.",
+        "options": [
+            "process count",
+            "long-term scheduler",
+            "degree of multiprogramming",
+            "CPU scheduler"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The list of processes waiting for a particular I/O device is called a(n) ____.",
+        "options": ["standby queue", "device queue", "ready queue", "interrupt queue"],
+        "answer": 1
+    },
+    {
+        "question": "A _________________ saves the state of the currently running process and restores the state of the next process to run.",
+        "options": ["save-and-restore", "state switch", "context switch", "none of the above"],
+        "answer": 2
+    },
+    {
+        "question": "When a child process is created, which of the following is a possibility in terms of the execution or address space of the child process?",
+        "options": [
+            "The child process runs concurrently with the parent.",
+            "The child process has a new program loaded into it.",
+            "The child is a duplicate of the parent.",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A process that has terminated, but whose parent has not yet called wait(), is known as a ________ process.",
+        "options": ["zombie", "orphan", "terminated", "init"],
+        "answer": 0
+    },
+    {
+        "question": "The _______ process is assigned as the parent to orphan processes.",
+        "options": ["zombie", "init", "main", "renderer"],
+        "answer": 1
+    },
+    {
+        "question": "A new browser process is created by the Chrome browser for every new website that is visited.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": [
+            "Shared memory is typically faster than message passing.",
+            "Message passing is typically faster than shared memory.",
+            "Message passing is most useful for exchanging large amounts of data.",
+            "Shared memory is far more common in operating systems than message passing."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Shared memory is a more appropriate IPC mechanism than message passing for distributed systems.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The shared buffer is implemented as a circular array with two logical pointers: in and out. The variable in points to the next free position in the buffer; out points to the first full position in the buffer. The buffer is full when in == out.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A blocking send() and blocking receive() is known as a(n) _________________",
+        "options": [
+            "synchronized message",
+            "rendezvous",
+            "blocked message",
+            "asynchronous message"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In a(n) ____ temporary queue, the sender must always block until the recipient receives the message.",
+        "options": ["zero capacity", "variable capacity", "bounded capacity", "unbounded capacity"],
+        "answer": 0
+    },
+    {
+        "question": "Under indirect communication, each process that wants to communicate must explicitly name the recipient or sender of the communication.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A(n) ______________ allows several unrelated processes to use the pipe for communication.",
+        "options": ["named pipe", "anonymous pipe", "LIFO", "ordinary pipe"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": [
+            "Named pipes do not allow bi-directional communication.",
+            "Only the parent and child processes can use named pipes for communication.",
+            "Reading and writing to ordinary pipes on both UNIX and Windows systems can be performed like ordinary file I/O.",
+            "Named pipes can only be used by communicating processes on the same machine."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Named pipes continue to exist in the system after the creating process has terminated.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Imagine that a host with IP address 150.55.66.77 wishes to download a file from the web server at IP address 202.28.15.123. Select a valid socket pair for a connection between this pair of hosts.",
+        "options": [
+            "150.55.66.77:80 and 202.28.15.123:80",
+            "150.55.66.77:150 and 202.28.15.123:80",
+            "150.55.66.77:2000 and 202.28.15.123:80",
+            "150.55.66.77:80 and 202.28.15.123:3500"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "When communicating with sockets, a client process initiates a request for a connection and is assigned a port by the host computer. Which of the following would be a valid port assignment for the host computer?",
+        "options": ["21", "23", "80", "1625"],
+        "answer": 3
+    },
+    {
+        "question": "A socket is identified by an IP address concatenated with a port number.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A traditional (or heavyweight) process has a single thread of control.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A thread is composed of a thread ID, program counter, register set, and heap.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Each thread has its own register set and stack.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "_________ involves distributing tasks across multiple computing cores.",
+        "options": ["Concurrency", "Task parallelism", "Data parallelism", "Parallelism"],
+        "answer": 1
+    },
+    {
+        "question": "According to Amdahl's Law, what is the speedup gain for an application that is 60% paralizeble on two processors",
+        "options": ["1.82", ".7", ".55", "1.43"],
+        "answer": 3
+    },
+    {
+        "question": "It is possible to have concurrency without parallelism.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "The ____ multithreading model multiplexes many user-level threads to a smaller or equal number of kernel threads.",
+        "options": [
+            "many-to-one model",
+            "one-to-one model",
+            "many-to-many model",
+            "many-to-some model"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The _____ model maps many user-level threads to one kernel thread.",
+        "options": ["many-to-many", "two-level", "one-to-one", "many-to-one"],
+        "answer": 3
+    },
+    {
+        "question": "The _____ model allows a user-level thread to be bound to one kernel thread.",
+        "options": ["many-to-many", "two-level", "one-to-one", "many-to-one"],
+        "answer": 1
+    },
+    {
+        "question": "A ____ provides an API for creating and managing threads.",
+        "options": [
+            "set of system calls",
+            "multicore system",
+            "thread library",
+            "multithreading model"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Pthreads refers to ____.",
+        "options": [
+            "the POSIX standard.",
+            "an implementation for thread behavior.",
+            "a specification for thread behavior.",
+            "an API for process creation and synchronization."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "It is possible to create a thread library without any kernel-level support.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A _____ uses an existing thread - rather than creating a new one - to complete a task.",
+        "options": [
+            "lightweight process",
+            "thread pool",
+            "scheduler activation",
+            "asynchronous procedure call"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "When OpenMP encounters the #pragma omp parallel directive, it",
+        "options": [
+            "constructs a parallel region",
+            "creates a new thread",
+            "creates as many threads as there are processing cores",
+            "parallelizes for loops"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Grand Central Dispatch handles blocks by",
+        "options": [
+            "placing them on a dispatch queue",
+            "creating a new thread",
+            "placing them on a dispatch stack",
+            "constructing a parallel region"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following would be an acceptable signal handling scheme for a multithreaded program?",
+        "options": [
+            "Deliver the signal to the thread to which the signal applies.",
+            "Deliver the signal to every thread in the process.",
+            "Deliver the signal to only certain threads in the process.",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Cancellation points are associated with ____ cancellation.",
+        "options": ["asynchronous", "deferred", "synchronous", "non-deferred"],
+        "answer": 1
+    },
+    {
+        "question": "Thread-local storage is data that ____.",
+        "options": [
+            "is not associated with any process",
+            "has been modified by the thread, but not yet updated to the parent process",
+            "is generated by the thread independent of the thread's process",
+            "is unique to each thread"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Windows uses the ____.",
+        "options": [
+            "one-to-one model",
+            "many-to-one model",
+            "one-to many-model",
+            "many-to-many model"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Linux distinguishes between processes and threads.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The flags like CLONE FS, CLONE VM, CLONE SIGHAND, and CLONE FILES defines which sharing will take place in the function clone().",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is true of cooperative scheduling?",
+        "options": [
+            "It requires a timer.",
+            "A process keeps the CPU until it releases the CPU either by terminating or by switching to the waiting state.",
+            "It incurs a cost associated with access to shared data.",
+            "A process switches from the running state to the ready state when an interrupt occurs."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In preemptive scheduling, the sections of code affected by interrupts must be guarded from simultaneous use.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "____ is the number of processes that are completed per time unit.",
+        "options": ["CPU utilization", "Response time", "Turnaround time", "Throughput"],
+        "answer": 3
+    },
+    {
+        "question": "____ scheduling is approximated by predicting the next CPU burst with an exponential average of the measured lengths of previous CPU bursts.",
+        "options": ["Multilevel queue", "RR", "FCFS", "SJF"],
+        "answer": 3
+    },
+    {
+        "question": "The ____ scheduling algorithm is designed especially for time-sharing systems.",
+        "options": ["SJF", "FCFS", "RR", "Multilevel queue"],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is true of multilevel queue scheduling?",
+        "options": [
+            "Processes can move between queues.",
+            "Each queue has its own scheduling algorithm.",
+            "A queue cannot have absolute priority over lower-priority queues.",
+            "It is the most general CPU-scheduling algorithm."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "____ involves the decision of which kernel thread to schedule onto which CPU.",
+        "options": [
+            "Process-contention scope",
+            "System-contention scope",
+            "Dispatcher",
+            "Round-robin scheduling"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "____ allows a thread to run on only one processor.",
+        "options": ["Processor affinity", "Processor set", "NUMA", "Load balancing"],
+        "answer": 0
+    },
+    {
+        "question": "With ____ a thread executes on a processor until a long-latency event (i.e. a memory stall) occurs.",
+        "options": [
+            "coarse-grained multithreading",
+            "fine-grained multithreading",
+            "virtualization",
+            "multicore processors"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The two general approaches to load balancing are ____ and ____.",
+        "options": [
+            "soft affinity, hard affinity",
+            "coarse grained, fine grained",
+            "soft real-time, hard real-time",
+            "push migration, pull migration"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The rate of a periodic task in a hard real-time system is ____, where p is a period and t is the processing time.",
+        "options": ["1/p", "p/t", "1/t", "pt"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is true of the rate-monotonic scheduling algorithm?",
+        "options": [
+            "The task with the shortest period will have the lowest priority.",
+            "Fine-It uses a dynamic priority policy.",
+            "CPU utilization is bounded when using this algorithm.",
+            "It is non-preemptive."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is true of earliest-deadline-first (EDF) scheduling algorithm?",
+        "options": [
+            "When a process becomes runnable, it must announce its deadline requirements to the system.",
+            "Deadlines are assigned as following: the earlier the deadline, the lower the priority; the later the deadline, the higher the priority.",
+            "Priorities are fixed; that is, they cannot be adjusted when a new process starts running.",
+            "It assigns priorities statically according to deadline."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following statements are false with regards to the Linux CFS scheduler?",
+        "options": [
+            "Each task is assigned a proportion of CPU processing time.",
+            "Lower numeric values indicate higher relative priorities.",
+            "There is a single, system-wide value of vruntime.",
+            "The scheduler doesn't directly assign priorities."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the numeric priority of a Windows thread in the HIGH_PRIORITY_CLASS with ABOVE_NORMAL relative priority?",
+        "options": ["24", "10", "8", "14"],
+        "answer": 3
+    },
+    {
+        "question": "In Solaris, if an interactive thread with priority 15 uses its entire time quantum, what is its priority recalculated to?",
+        "options": ["51", "5", "160", "It remains at 15"],
+        "answer": 1
+    },
+    {
+        "question": "In Little's formula, lambda, represents the ____.",
+        "options": [
+            "average waiting time in the queue",
+            "average arrival rate for new processes in the queue",
+            "average queue length",
+            "average CPU utilization"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A race condition ____.",
+        "options": [
+            "results when several threads try to access the same data concurrently",
+            "results when several threads try to access and modify the same data concurrently",
+            "will result only if the outcome of execution does not depend on the order in which instructions are executed",
+            "None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Instructions from different processes can be interleaved when interrupts are allowed.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A(n) _______ refers to where a process is accessing/updating shared data.",
+        "options": ["critical section", "entry section", "mutex", "test-and-set"],
+        "answer": 0
+    },
+    {
+        "question": "A solution to the critical section problem does not have to satisfy which of the following requirements?",
+        "options": ["mutual exclusion", "progress", "atomicity", "bounded waiting"],
+        "answer": 2
+    },
+    {
+        "question": "A nonpreemptive kernel is safe from race conditions on kernel data structures.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In Peterson's solution, the ____ variable indicates if a process is ready to enter its critical section.",
+        "options": ["turn", "lock", "flag[i]", "turn[i]"],
+        "answer": 2
+    },
+    {
+        "question": "_____ is not a technique for handling critical sections in operating systems.",
+        "options": [
+            "Nonpreemptive kernels",
+            "Preemptive kernels",
+            "Spinlocks",
+            "Peterson's solution"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "_____ is/are not a technique for managing critical sections in operating systems.",
+        "options": [
+            "Peterson's solution",
+            "Preemptive kernel",
+            "Nonpreemptive kernel",
+            "Semaphores"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "An instruction that executes atomically ____.",
+        "options": [
+            "must consist of only one machine instruction",
+            "executes as a single, uninterruptible unit",
+            "cannot be used to solve the critical section problem",
+            "All of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Race conditions are prevented by requiring that critical regions be protected by locks.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Both the test_ and_set() instruction and compare_and_swap() instruction are executed atomically.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A mutex lock ____.",
+        "options": [
+            "is exactly like a counting semaphore",
+            "is essentially a boolean variable",
+            "is not guaranteed to be atomic",
+            "can be used to eliminate busy waiting"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the correct order of operations for protecting a critical section using mutex locks?",
+        "options": [
+            "release() followed by acquire()",
+            "acquire() followed by release()",
+            "wait() followed by signal()",
+            "signal() followed by wait()"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Busy waiting refers to the phenomenon that while a process is in its critical section, any other process that tries to enter its critical section must loop continuously in the call to acquire the mutex lock.",
+        "options": ["Yes", "No"],
+        "answer": 0
+    },
+    {
+        "question": "A counting semaphore ____.",
+        "options": [
+            "is essentially an integer variable",
+            "is accessed through only one standard operation",
+            "can be modified simultaneously by multiple threads",
+            "cannot be used to control access to a thread's critical sections"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "_____ can be used to prevent busy waiting when implementing a semaphore.",
+        "options": [
+            "Spinlocks",
+            "Waiting queues",
+            "Mutex lock",
+            "Allowing the wait() operation to succeed"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Mutex locks and binary semaphores are essentially the same thing.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A ___ type presents a set of programmer-defined operations that are provided mutual exclusion within it.",
+        "options": ["transaction", "signal", "binary", "monitor"],
+        "answer": 3
+    },
+    {
+        "question": "The local variables of a monitor can be accessed by only the local procedures.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Monitors are a theoretical concept and are not practiced in modern programming languages",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A deadlock-free solution eliminates the possibility of starvation.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Another problem related to deadlocks is ____________.",
+        "options": ["race conditions", "critical sections", "spinlocks", "indefinite blocking"],
+        "answer": 3
+    },
+    {
+        "question": "____________ occurs when a higher-priority process needs to access a data structure that is currently being accessed by a lower-priority process.",
+        "options": ["Priority inversion", "Deadlock", "A race condition", "A critical section"],
+        "answer": 0
+    },
+    {
+        "question": "Traditional synchronization is always much faster than CAS-based synchronization.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "What is the purpose of the mutex semaphore in the implementation of the bounded-buffer problem using semaphores?",
+        "options": [
+            "It indicates the number of empty slots in the buffer.",
+            "It indicates the number of occupied slots in the buffer.",
+            "It controls access to the shared buffer.",
+            "It ensures mutual exclusion."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The first readers-writers problem ____.",
+        "options": [
+            "requires that, once a writer is ready, that writer performs its write as soon as possible.",
+            "is not used to test synchronization primitives.",
+            "requires that no reader will be kept waiting unless a writer has already obtained permission to use the shared database.",
+            "requires that no reader will be kept waiting unless a reader has already obtained permission to use the shared database."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "How many philosophers may eat simultaneously in the Dining Philosophers problem with 5 philosophers?",
+        "options": ["1", "2", "3", "5"],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": [
+            "Operations on atomic integers do not require locking.",
+            "Operations on atomic integers do require additional locking.",
+            "Linux only provides the atomic_inc() and atomic_sub() operations.",
+            "Operations on atomic integers can be interrupted."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A thread will immediately acquire a dispatcher lock that is the signaled state.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Linux mostly uses atomic integers to manage race conditions within the kernel.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "Pthreads can be implemented",
+        "options": [
+            "only inside the operating system kernel",
+            "only at the user level",
+            "at the user level or inside the operating system kernel",
+            "only Windows OS"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "When the owner of a mutex lock invokes pthread mutex unlock(), all threads blocked on that mutex's lock are unblocked.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "A call to pthread_cond_signal()",
+        "options": [
+            "releases the mutex lock and signals one thread waiting on the condition variable.",
+            "releases the mutex lock and signals all threads waiting on the condition variable.",
+            "signals one thread waiting on the condition variable, but does not release the mutex lock.",
+            "signals all threads waiting on the condition variable, but does not release the mutex lock."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In JAVA, when a thread calls notify(), an arbitrary thread T from the list of threads in the wait set",
+        "options": [
+            "is set to runnable state and T immediately regains the control of the lock.",
+            "is set to runnable state and is moved from the wait set to entry set where it regains the control of the lock as soon as the thread calling notify() exits its method.",
+            "is set to runnable state and is moved from the wait set to entry set where it regains the control of the lock only after all other threads in the entry set have acquired and released the lock.",
+            "is set to runnable state and is moved from the wait set to entry set where it competes for the lock with the other threads in the entry set."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A reentrant lock allows for granting the lock to the longest-waiting thread when unlock() is called.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "When a thread invokes the signal() method of a condition variable, all threads blocked on that condition variable are unblocked.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The OpenMP #pragma omp critical directive ____.",
+        "options": [
+            "behaves much like a mutex lock",
+            "does not require programmers to identify critical sections",
+            "does not guarantee prevention of race conditions",
+            "is similar to functional languages"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "An advantage of transactional memory system is that the developer doesn't have to worry about implementing atomicity.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In a functional programming language,",
+        "options": [
+            "variables may be assigned different values over time.",
+            "value of a variable can be changed only by the thread that created it.",
+            "value of a variable is immutable.",
+            "developers have to implement atomicity."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A deadlocked state occurs whenever ____.",
+        "options": [
+            "a process is waiting for I/O to a device that does not exist",
+            "the system has no available free resources",
+            "every process in a set is waiting for an event that can only be caused by another process in the set",
+            "a process is unable to release its request for a resource after use"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Deadlock occurs when every thread in a set is blocked waiting for an event that can be caused only by another thread in the set, while livelock occurs when a thread continuously attempts an action that fails.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In the dining philosophers problem, there is a possibility of deadlock but not livelock.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "One necessary condition for deadlock is ____, which states that a process must be holding one resource and waiting to acquire additional resources.",
+        "options": ["hold and wait", "mutual exclusion", "circular wait", "no preemption"],
+        "answer": 0
+    },
+    {
+        "question": "A cycle in a resource-allocation graph is ____.",
+        "options": [
+            "a necessary and sufficient condition for deadlock in the case that each resource has more than one instance",
+            "a necessary and sufficient condition for a deadlock in the case that each resource has exactly one instance",
+            "a sufficient condition for a deadlock in the case that each resource has more than once instance",
+            "is neither necessary nor sufficient for indicating deadlock in the case that each resource has exactly"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "If a resource-allocation graph has a cycle, the system must be in a deadlocked state.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "To handle deadlocks, operating systems most often ____.",
+        "options": [
+            "pretend that deadlocks never occur",
+            "use protocols to prevent or avoid deadlocks",
+            "detect and recover from deadlocks",
+            "None of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Both deadlock prevention and deadlock avoidance techniques ensure that the system will never enter a deadlocked state.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Most operating systems choose to ignore deadlocks, because",
+        "options": [
+            "handling deadlocks is expensive in terms of performance and resources.",
+            "deadlocks occur infrequently.",
+            "methods used to recover from livelock may be put to use to recover from deadlock.",
+            "All of the above."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Assume there are three resources, R1, R2, and R3, that are each assigned unique integer values 15, 10, and 25, respectively. What is a resource ordering which prevents a circular wait?",
+        "options": ["R1, R2, R3", "R3, R2, R1", "R3, R1, R2", "R2, R1, R3"],
+        "answer": 3
+    },
+    {
+        "question": "Deadlock prevention by denying the mutual-exclusion condition is the simplest way to prevent deadlocks.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "In deadlock prevention by denying hold-and-wait condition,",
+        "options": [
+            "resource utilization may below.",
+            "starvation is possible.",
+            "whenever a thread requests a resource, it does not hold any other resources.",
+            "All of the above."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": [
+            "A safe state is a deadlocked state.",
+            "A safe state may lead to a deadlocked state.",
+            "An unsafe state is necessarily, and by definition, always a deadlocked state.",
+            "An unsafe state may lead to a deadlocked state."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Suppose that there are ten resources available to three processes. At time 0, the following data is collected. The table indicates the process, the maximum number of resources needed by the process, and the number of resources currently owned by each process. Which of the following correctly characterizes this state?",
+        "options": [
+            "It is safe.",
+            "It is not safe.",
+            "The state cannot be determined.",
+            "It is an impossible state."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Suppose that there are 12 resources available to three processes. At time 0, the following data is collected. The table indicates the process, the maximum number of resources needed by the process, and the number of resources currently owned by each process. Which of the following correctly characterizes this state?",
+        "options": [
+            "It is safe.",
+            "It is not safe.",
+            "The state cannot be determined.",
+            "It is an impossible state."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The wait-for graph scheme is not applicable to a resource allocation system with multiple instances of each resource type.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In a wait-for-graph,",
+        "options": [
+            "a resource may have multiple instances.",
+            "a deadlock implies the existence of a cycle, but a cycle does not necessarily imply a deadlock.",
+            "a cycle implies deadlock, but not every deadlock results in a cycle.",
+            "None of the above."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The decision of when to invoke a detection algorithm depends on the likely frequency of deadlocks and the number of threads likely to be affected by a deadlock when it happens.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A system can recover from a deadlock by",
+        "options": [
+            "aborting one process at a time until the deadlock cycle is eliminated.",
+            "aborting all deadlocked processes.",
+            "preempting some resources from one or more of the deadlocked threads.",
+            "All of the above."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "To recover from a deadlock using resource preemption,",
+        "options": [
+            "the order of resources and processes that need to be preempted must be determined to minimize cost.",
+            "if a resource is preempted from a process, the process must be rolled back to some safe state and restarted from that state.",
+            "ensure that starvation does not occur from always preempting resources from the same process.",
+            "All of the above."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Absolute code can be generated for ____.",
+        "options": [
+            "compile-time binding",
+            "load-time binding",
+            "execution-time binding",
+            "interrupt binding"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In a dynamically linked library, ____.",
+        "options": [
+            "loading is postponed until execution time",
+            "system language libraries are treated like any other object module",
+            "more disk space is used than in a statically linked library",
+            "a stub is included in the image for each library-routine reference"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The mapping of a logical address to a physical address is done in hardware by the ________.",
+        "options": [
+            "memory-management-unit (MMU)",
+            "memory address register",
+            "relocation register",
+            "dynamic loading register"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "_____ is the dynamic storage-allocation algorithm which results in the smallest leftover hole in memory.",
+        "options": ["First fit", "Best fit", "Worst fit", "None of the above"],
+        "answer": 1
+    },
+    {
+        "question": "_____ is the dynamic storage-allocation algorithm which results in the largest leftover hole in memory.",
+        "options": ["First fit", "Best fit", "Worst fit", "None of the above"],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is true of compaction?",
+        "options": [
+            "It can be done at assembly, load, or execution time.",
+            "It is used to solve the problem of internal fragmentation.",
+            "It cannot shuffle memory contents.",
+            "It is possible only if relocation is dynamic and done at execution time."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Consider a logical address with a page size of 8 KB. How many bits must be used to represent the page offset in the logical address?",
+        "options": ["10", "8", "13", "12"],
+        "answer": 2
+    },
+    {
+        "question": "Assume a system has a TLB hit ratio of 90%. It requires 15 nanoseconds to access the TLB, and 85 nanoseconds to access main memory. What is the effective memory access time in nanoseconds for this system?",
+        "options": ["108.5", "100", "22", "176.5"],
+        "answer": 0
+    },
+    {
+        "question": "Given the logical address 0xAEF9 (in hexadecimal) with a page size of 256 bytes, what is the page offset?",
+        "options": ["0xAE", "0xF9", "0xA", "0xF900"],
+        "answer": 1
+    },
+    {
+        "question": "A(n) ____ page table one page entru for real page (or frame) of memory.",
+        "options": ["Inverted", "Clusterd", "Forward-mapped", "Virtual"],
+        "answer": 0
+    },
+    {
+        "question": "Consider a 32-bit address for a two-level paging system with an 8 KB page size. The outer page table has 1024 entries. How many bists are used to represent the secound-level page table?",
+        "options": ["10", "8", "12", "9"],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following statements are true with respect to hashed page tables?",
+        "options": [
+            "They only work for sparse address spaces.",
+            "The virtual address is used to hash into the hash table.",
+            "A common approach for handling address spaces larger than 32 bits.",
+            "Hash table collisions do not occur because of the importance of paging."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is not a reason explaining why mobile devices generally do not support swapping?",
+        "options": [
+            "Limited space constraints of flash memory.",
+            "Small size of mobile applications do not require use of swap space.",
+            "Limited number of writes of flash memory.",
+            "Poor throughput between main memory and flash memory."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Standard swapping is generally not used in contemporary operating systems, because",
+        "options": [
+            "some processes are so large that they can't fit in backing store.",
+            "memory in contemporary systems is large enough to store all processes.",
+            "the amount of time required to move entire processes between memory and the backing store is prohibitive.",
+            "contemporary operating systems do not oversubscribe memory."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Standard swapping involves swapping in pages of processes instead of entire processes.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "question": "The x86-64 bit architecture only uses 48 of the 64 possible bits for representing virtual address space.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "A page address extension (PAE) in IA-32",
+        "options": [
+            "introduces two-level paging scheme.",
+            "increases address size to 64 bits.",
+            "allows 32-bit processors to access a physical address space larger than 4 GB.",
+            "does not need any operating system support."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "IA-32 page tables can be swapped to disk.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following statements regarding the ARM architecture are false?",
+        "options": [
+            "There are essentially four different page ranging from 4-KB to 16-MB in size.",
+            "There are two different levels of TLB.",
+            "One or two level paging may be used.",
+            "The micro TLB must be flushed at each context switch."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The ARM architecture uses up to four-level paging.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "question": "In ARM architecture, address translation",
+        "options": [
+            "begins at the micro-TLB level.",
+            "begins at the main TLB-level.",
+            "begins at the page table.",
+            "can begin at any of micro, main or page table levels."
+        ],
+        "answer": 0
+    }
+]

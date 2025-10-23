@@ -1,0 +1,82 @@
+[
+    {
+        "question": "A race condition ____.",
+        "options": [
+            "results when several threads try to access the same data concurrently",
+            "results when several threads try to access and modify the same data concurrently",
+            "will result only if the outcome of execution does not depend on the order in which instructions are executed",
+            "None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "An instruction that executes atomically ____.",
+        "options": [
+            "must consist of only one machine instruction",
+            "executes as a single, uninterruptible unit",
+            "cannot be used to solve the critical section problem",
+            "All of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the correct order of operations for protecting a critical section using mutex locks?",
+        "options": [
+            "release() followed by acquire()",
+            "acquire() followed by release()",
+            "wait() followed by signal()",
+            "signal() followed by wait()"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the correct order of operations for protecting a critical section using a binary semaphore?",
+        "options": [
+            "release() followed by acquire()",
+            "acquire() followed by release()",
+            "wait() followed by signal()",
+            "signal() followed by wait()"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A/an _______ refers to where a process is accessing/updating shared data.",
+        "options": ["critical section", "entry section", "mutex", "test-and-set"],
+        "answer": 0
+    },
+    {
+        "question": "_____ can be used to prevent busy waiting when implementing a semaphore.",
+        "options": [
+            "Spinlocks",
+            "Waiting queues",
+            "Mutex lock",
+            "Allowing the wait() operation to succeed"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "How many philosophers may eat simultaneously in the Dining Philosophers problem with 5 philosophers?",
+        "options": ["1", "2", "3", "5"],
+        "answer": 1
+    },
+    {
+        "question": "When using semaphores, a process invokes the wait() operation before accessing its critical section, followed by the signal() operation upon completion of its critical section. Consider reversing the order of these two operations---first calling signal(), then calling wait(). What would be a possible outcome of this?",
+        "options": [
+            "Starvation is possible.",
+            "Several processes could be active in their critical sections at the same time.",
+            "Mutual exclusion is still assured.",
+            "Deadlock is possible."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The OpenMP #pragma omp critical directive ___________.",
+        "options": [
+            "behaves much like a mutex lock",
+            "does not require programmers to identify critical sections",
+            "does not guarantee prevention of race conditions",
+            "is similar to functional languages"
+        ],
+        "answer": 0
+    }
+]
